@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="routes" type="routesType"/>
+  <xs:complexType name="routesType">
+    <xs:sequence>
+      <xs:element type="routeType" name="route" maxOccurs="unbounded" minOccurs="1"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="routeType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="name"/>
+      <xs:element type="colorType" name="color"/>
+      <xs:element type="stationsType" name="stations"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="joinsType">
+    <xs:sequence>
+      <xs:element type="joinType" name="join"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="colorType">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute type="xs:string" name="code" use="required"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+  <xs:complexType name="joinType">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute type="xs:IDREF" name="ref" use="required"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+  <xs:complexType name="stationsType">
+    <xs:sequence>
+      <xs:element type="stationType" name="station" maxOccurs="unbounded" minOccurs="1"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="coordinatesType">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute type="xs:float" name="latitude" use="required"/>
+        <xs:attribute type="xs:float" name="longitude" use="required"/>
+        <xs:attribute type="xs:float" name="altitude" use="optional"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+  <xs:complexType name="stationType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="name"/>
+      <xs:element type="coordinatesType" name="coordinates"/>
+      <xs:element type="joinsType" name="joins" minOccurs="0"/>
+    </xs:sequence>
+    <xs:attribute type="xs:string" name="id" use="optional"/>
+  </xs:complexType>
+</xs:schema>

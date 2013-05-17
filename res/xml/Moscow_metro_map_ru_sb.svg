@@ -1,0 +1,1331 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Image originally created by Sameboat for Wikimedia projects and licensed under Creative Commons Attribution-ShareAlike  3.0. -->
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/"
+xmlns:cc="http://web.resource.org/cc/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:svg="http://www.w3.org/2000/svg"
+xmlns="http://www.w3.org/2000/svg"
+xmlns:xlink="http://www.w3.org/1999/xlink"
+width="1240" height="1590" viewBox="30 0 1270 1590"
+preserveAspectRatio="xMinYMin"
+>
+
+<title>Moscow Metro map in Russian</title>
+<desc>
+Index of this SVG image:
+ Metadata
+ Definations
+  text style
+  basic station nodes
+  interchange rims
+  interchange nodes
+  train icon
+  airplane icon
+ Rivers paths
+ Routes paths
+ Interchange rims placement
+ Station and interchnage nodes placement
+ Station name text
+ River name text
+ Route number text
+ Title and licensing text
+ Route legend text
+</desc>
+
+<metadata id="license"
+            xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:cc="http://creativecommons.org/ns#">
+ <rdf:RDF>
+   <cc:Work rdf:about="">
+     <dc:format>image/svg+xml</dc:format>
+     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+     <cc:license rdf:resource="http://creativecommons.org/licenses/by-sa/3.0/" />
+   </cc:Work>
+   <cc:License rdf:about="http://creativecommons.org/licenses/by-sa/3.0/">
+     <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction" />
+     <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution" />
+     <cc:requires rdf:resource="http://creativecommons.org/ns#Notice" />
+     <cc:requires rdf:resource="http://creativecommons.org/ns#Attribution" />
+     <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+     <cc:requires rdf:resource="http://creativecommons.org/ns#ShareAlike" />
+   </cc:License>
+ </rdf:RDF>
+</metadata>
+
+<defs>
+<style type="text/css">
+text.stbg {font-size:11px;stroke:#ffffff;stroke-width:3px;font-family:Liberation Sans,Arial,sans-serif;}
+text.icbg {font-size:11px;stroke:#ffffff;stroke-width:3px;font-family:Liberation Sans,Arial,sans-serif;font-weight: bold;}
+text.st {font-size:11px;font-family:Liberation Sans,Arial,sans-serif;}
+text.ic {font-size:11px;font-family:Liberation Sans,Arial,sans-serif;font-weight: bold;}
+text.vok {font-size:10px;font-family:Liberation Sans,Arial,sans-serif;}
+text.legendtext {font-size:15px;font-family:Liberation Sans,Arial,sans-serif}
+text.legendst {font-size:12px;font-family:Liberation Sans,Arial,sans-serif;}
+text.legendic {font-size:12px;font-family:Liberation Sans,Arial,sans-serif;font-weight: bold;}
+</style>
+
+<circle id="ele-int" cx="0" cy="0" r="9" style="fill:white;stroke:black;stroke-width:1" />
+
+<g id="int2">
+<path style="fill:none;stroke:black;stroke-width:9px;"
+d="M 0,0 L 27,0"/>
+<use xlink:href="#ele-int" x="0" y="0"/>
+<use xlink:href="#ele-int" x="28" y="0"/>
+<path style="fill:none;stroke:white;stroke-width:7px;"
+d="M 0,0 L 28,0"/>
+</g>
+
+<g id="int3-1">
+<path style="fill:none;stroke:black;stroke-width:9px;"
+d="M 0,0 L 57,0"/>
+<use xlink:href="#ele-int" x="0" y="0"/>
+<use xlink:href="#ele-int" x="28" y="0"/>
+<use xlink:href="#ele-int" x="57" y="0"/>
+<path style="fill:none;stroke:white;stroke-width:7px;"
+d="M 0,0 L 57,0"/>
+</g>
+
+<g id="int3-2">
+<path style="fill:none;stroke:black;stroke-width:9px;stroke-linecap:round;stroke-linejoin:round"
+d="M 0,0 L 18,19 0,39 z"/>
+<use xlink:href="#ele-int" x="0" y="0"/>
+<use xlink:href="#ele-int" x="18" y="19"/>
+<use xlink:href="#ele-int" x="0" y="39"/>
+<path style="fill:none;stroke:white;stroke-width:7px;stroke-linecap:round;stroke-linejoin:round"
+d="M 0,0 L 18,19 0,39 z"/>
+</g>
+
+<g id="int3-3">
+<path style="fill:none;stroke:black;stroke-width:9px;stroke-linecap:round;stroke-linejoin:round"
+d="M 0,0 L 24,0 12,21 z"/>
+<use xlink:href="#ele-int" x="0" y="0"/>
+<use xlink:href="#ele-int" x="24" y="0"/>
+<use xlink:href="#ele-int" x="12" y="21"/>
+<path style="fill:none;stroke:white;stroke-width:7px;stroke-linecap:round;stroke-linejoin:round"
+d="M 0,0 L 24,0 12,21 z"/>
+</g>
+
+<g id="int3-4">
+<path style="fill:none;stroke:black;stroke-width:9px;stroke-linejoin:round"
+d="M 0,0 L 28,0 14,-14 z"/>
+<use xlink:href="#ele-int" x="0" y="0"/>
+<use xlink:href="#ele-int" x="28" y="0"/>
+<use xlink:href="#ele-int" x="14" y="-14"/>
+<path style="fill:none;stroke:white;stroke-width:7px;stroke-linejoin:round"
+d="M 0,0 L 28,0 14,-14 z"/>
+</g>
+
+<g id="int4">
+<path style="fill:none;stroke:black;stroke-width:9px;stroke-linecap:round;stroke-linejoin:round"
+d="M 0,28 L 28,0 28,28 0,28 0,0 28,0"/>
+<use xlink:href="#ele-int" x="0" y="0"/>
+<use xlink:href="#ele-int" x="28" y="0"/>
+<use xlink:href="#ele-int" x="0" y="28"/>
+<use xlink:href="#ele-int" x="28" y="28"/>
+<path style="fill:none;stroke:white;stroke-width:7px;stroke-linecap:round;stroke-linejoin:round"
+d="M 0,28 L 28,0 28,28 0,28 0,0 28,0"/>
+</g>
+
+<g id="intst" style="stroke:none;">
+<circle cx="0" cy="0" r="6" />
+<path d="M 0,0 L 0,-2 5,-2 8,0 5,2 0,2 z"/>
+</g>
+
+<path id="intst-h"
+d="M 0,0 l 0,-5 a 5,5 0 1,0 0,10 z"/>
+<path id="intst-hs"
+d="M 0,0 l 0,-2.5 a 2.5,2.5 0 1,0 0,5 z"/>
+
+<g id="term">
+<path id="termm" style="fill:none;stroke-width:5;" d="M -8,0 L 8,0"/>
+<circle cx="0" cy="0" r="1.5" fill="white"/>
+</g>
+
+<g id="terms" style="fill:none;">
+<path d="M -8,0 L 8,0"/>
+<path d="M 0,0 L 0,-2.5"/>
+</g>
+
+<g id="st">
+<path id="stm" style="fill:none;stroke-width:5;" d="M 8,0 L 0.5,0"/>
+<circle cx="0" cy="0" r="1.5" fill="white"/>
+</g>
+
+<g id="sts" style="fill:none;">
+<path d="M 8,0 L 0,0"/>
+<path d="M 0,2.5 L 0,-2.5"/>
+</g>
+
+<circle id="stmono" cx="0" cy="0" r="3" style="fill:#77aaff;stroke:none;"/>
+
+<circle id="stvok" cx="0" cy="0" r="5" style="fill:#aaaaaa;stroke:none;"/>
+
+<use xlink:href="#intst" id="intst1" style="fill:#ff0000"/>
+<use xlink:href="#intst-h" id="intst-h1" style="fill:#ff0000"/>
+<use xlink:href="#term" id="term1" style="stroke:#ff0000"/>
+<use xlink:href="#st" id="st1" style="stroke:#ff0000"/>
+<use xlink:href="#intst" id="intst1x" style="fill:#ff8080"/>
+<use xlink:href="#intst-h" id="intst-h1x" style="fill:#ff8080"/>
+<use xlink:href="#term" id="term1x" style="stroke:#ff0000; stroke-dasharray:3.2"/>
+<use xlink:href="#st" id="st1x" style="stroke:#ff0000; stroke-dasharray:3.2"/>
+
+<use xlink:href="#intst" id="intst2" style="fill:#029B52"/>
+<use xlink:href="#intst-h" id="intst-h2" style="fill:#029B52"/>
+<use xlink:href="#term" id="term2" style="stroke:#029B52"/>
+<use xlink:href="#st" id="st2" style="stroke:#029B52"/>
+<use xlink:href="#intst" id="intst2x" style="fill:#6bcf9f"/>
+<use xlink:href="#intst-h" id="intst-h2x" style="fill:#6bcf9f"/>
+<use xlink:href="#term" id="term2x" style="stroke:#029B52; stroke-dasharray:3.2"/>
+<use xlink:href="#st" id="st2x" style="stroke:#029B52; stroke-dasharray:3.2"/>
+
+<use xlink:href="#intst" id="intst3" style="fill:#0256A4"/>
+<use xlink:href="#intst-h" id="intst-h3" style="fill:#0256A4"/>
+<use xlink:href="#term" id="term3" style="stroke:#0256A4"/>
+<use xlink:href="#st" id="st3" style="stroke:#0256A4"/>
+<use xlink:href="#intst" id="intst3x" style="fill:#6fa3d4"/>
+<use xlink:href="#intst-h" id="intst-h3x" style="fill:#6fa3d4"/>
+<use xlink:href="#term" id="term3x" style="stroke:#0256A4; stroke-dasharray:3.2"/>
+<use xlink:href="#st" id="st3x" style="stroke:#0256A4; stroke-dasharray:3.2"/>
+
+<use xlink:href="#intst" id="intst4" style="fill:#029EE0"/>
+<use xlink:href="#intst-h" id="intst-h4" style="fill:#029EE0"/>
+<use xlink:href="#term" id="term4" style="stroke:#029EE0"/>
+<use xlink:href="#st" id="st4" style="stroke:#029EE0"/>
+<use xlink:href="#intst" id="intst4x" style="fill:#80d1f2"/>
+<use xlink:href="#intst-h" id="intst-h4x" style="fill:#80d1f2"/>
+<use xlink:href="#term" id="term4x" style="stroke:#029EE0; stroke-dasharray:3.2"/>
+<use xlink:href="#st" id="st4x" style="stroke:#029EE0; stroke-dasharray:3.2"/>
+
+<use xlink:href="#intst" id="intst5" style="fill:#71592E"/>
+<use xlink:href="#intst-h" id="intst-h5" style="fill:#71592E"/>
+<use xlink:href="#term" id="term5" style="stroke:#71592E"/>
+<use xlink:href="#st" id="st5" style="stroke:#71592E"/>
+<use xlink:href="#intst" id="intst5x" style="fill:#c3af8d"/>
+<use xlink:href="#intst-h" id="intst-h5x" style="fill:#c3af8d"/>
+<use xlink:href="#term" id="term5x" style="stroke:#71592E; stroke-dasharray:3.2"/>
+<use xlink:href="#st" id="st5x" style="stroke:#71592E; stroke-dasharray:3.2"/>
+
+<use xlink:href="#intst" id="intst6" style="fill:#FFAB2E"/>
+<use xlink:href="#intst-h" id="intst-h6" style="fill:#FFAB2E"/>
+<use xlink:href="#term" id="term6" style="stroke:#FFAB2E"/>
+<use xlink:href="#st" id="st6" style="stroke:#FFAB2E"/>
+<use xlink:href="#intst" id="intst6x" style="fill:#ffd598"/>
+<use xlink:href="#intst-h" id="intst-h6x" style="fill:#ffd598"/>
+<use xlink:href="#term" id="term6x" style="stroke:#FFAB2E; stroke-dasharray:3.2"/>
+<use xlink:href="#st" id="st6x" style="stroke:#FFAB2E; stroke-dasharray:3.2"/>
+
+<use xlink:href="#intst" id="intst7" style="fill:#B5198D"/>
+<use xlink:href="#intst-h" id="intst-h7" style="fill:#B5198D"/>
+<use xlink:href="#term" id="term7" style="stroke:#B5198D"/>
+<use xlink:href="#st" id="st7" style="stroke:#B5198D"/>
+<use xlink:href="#intst" id="intst7x" style="fill:#da7fc3"/>
+<use xlink:href="#intst-h" id="intst-h7x" style="fill:#da7fc3"/>
+<use xlink:href="#term" id="term7x" style="stroke:#B5198D; stroke-dasharray:3.2"/>
+<use xlink:href="#st" id="st7x" style="stroke:#B5198D; stroke-dasharray:3.2"/>
+
+<use xlink:href="#intst" id="intst8" style="fill:#FFD702"/>
+<use xlink:href="#intst-h" id="intst-h8" style="fill:#FFD702"/>
+<use xlink:href="#term" id="term8" style="stroke:#FFD702"/>
+<use xlink:href="#st" id="st8" style="stroke:#FFD702"/>
+<use xlink:href="#intst" id="intst8x" style="fill:#ffec85"/>
+<use xlink:href="#intst-h" id="intst-h8x" style="fill:#ffec85"/>
+<use xlink:href="#term" id="term8x" style="stroke:#FFD702; stroke-dasharray:3.2"/>
+<use xlink:href="#st" id="st8x" style="stroke:#FFD702; stroke-dasharray:3.2"/>
+
+<use xlink:href="#intst" id="intst9" style="fill:#A9A9A9"/>
+<use xlink:href="#intst-h" id="intst-h9" style="fill:#A9A9A9"/>
+<use xlink:href="#term" id="term9" style="stroke:#A9A9A9"/>
+<use xlink:href="#st" id="st9" style="stroke:#A9A9A9"/>
+<use xlink:href="#intst" id="intst9x" style="fill:#d4d4d4"/>
+<use xlink:href="#intst-h" id="intst-h9x" style="fill:#d4d4d4"/>
+<use xlink:href="#term" id="term9x" style="stroke:#A9A9A9; stroke-dasharray:3.2"/>
+<use xlink:href="#st" id="st9x" style="stroke:#A9A9A9; stroke-dasharray:3.2"/>
+
+<use xlink:href="#intst" id="intst10" style="fill:#B3D52E"/>
+<use xlink:href="#intst-h" id="intst-h10" style="fill:#B3D52E"/>
+<use xlink:href="#term" id="term10" style="stroke:#B3D52E"/>
+<use xlink:href="#st" id="st10" style="stroke:#B3D52E"/>
+<use xlink:href="#intst" id="intst10x" style="fill:#dbec96"/>
+<use xlink:href="#intst-h" id="intst-h10x" style="fill:#dbec96"/>
+<use xlink:href="#term" id="term10x" style="stroke:#B3D52E; stroke-dasharray:3.2"/>
+<use xlink:href="#st" id="st10x" style="stroke:#B3D52E; stroke-dasharray:3.2"/>
+
+<use xlink:href="#intst" id="intst11" style="fill:#1A8BB9"/>
+<use xlink:href="#intst-h" id="intst-h11" style="fill:#1A8BB9"/>
+<use xlink:href="#term" id="term11" style="stroke:#1A8BB9"/>
+<use xlink:href="#st" id="st11" style="stroke:#1A8BB9"/>
+<use xlink:href="#intst" id="intst11x" style="fill:#86c4dd"/>
+<use xlink:href="#intst-h" id="intst-h11x" style="fill:#86c4dd"/>
+<use xlink:href="#term" id="term11x" style="stroke:#1A8BB9; stroke-dasharray:3.2"/>
+<use xlink:href="#st" id="st11x" style="stroke:#1A8BB9; stroke-dasharray:3.2"/>
+
+<use xlink:href="#intst" id="intstl1" style="fill:#8DD9FB"/>
+<use xlink:href="#intst-h" id="intst-hl1" style="fill:#8DD9FB"/>
+<g id="terml1">
+<use xlink:href="#term" style="stroke:#8DD9FB"/>
+<use xlink:href="#terms" style="stroke-width:1;stroke:#FFFFFF"/>
+</g>
+<g id="stl1">
+<use xlink:href="#st" style="stroke:#8DD9FB"/>
+<use xlink:href="#sts" style="stroke-width:1; stroke:#FFFFFF"/>
+</g>
+<use xlink:href="#intst" id="intstl1x" style="fill:#caecfc"/>
+<use xlink:href="#intst-h" id="intst-hl1x" style="fill:#caecfc"/>
+<g id="terml1x">
+<use xlink:href="#term" style="stroke:#8DD9FB; stroke-dasharray:3.2"/>
+<use xlink:href="#terms" style="stroke:#FFFFFF; stroke-width:1;"/>
+</g>
+<g id="stl1x">
+<use xlink:href="#st" style="stroke:#8DD9FB; stroke-dasharray:3.2"/>
+<use xlink:href="#sts" style="stroke:#FFFFFF; stroke-width:1;"/>
+</g>
+
+<g id="intsttpk">
+<use xlink:href="#intst" style="fill:#554D26"/>
+<circle cx="0" cy="0" r="2.5" style="fill:#F2761E"/>
+</g>
+<g id="intst-htpk">
+<use xlink:href="#intst-h" style="fill:#554D26"/>
+<use xlink:href="#intst-hs" style="fill:#F2761E"/>
+</g>
+<g id="termtpk">
+<use xlink:href="#term" style="stroke:#554D26"/>
+<use xlink:href="#terms" style="stroke:#F2761E; stroke-width:2.5;"/>
+</g>
+<g id="sttpk">
+<use xlink:href="#st" style="stroke:#554D26"/>
+<use xlink:href="#sts" style="stroke:#F2761E; stroke-width:2.5;"/>
+</g>
+<g id="intsttpkx">
+<use xlink:href="#intst" style="fill:#ada57f"/>
+<circle cx="0" cy="0" r="2.5" style="fill:#f7bc91"/>
+</g>
+<g id="intst-htpkx">
+<use xlink:href="#intst-h" style="fill:#ada57f"/>
+<use xlink:href="#intst-hs" style="fill:#f7bc91"/>
+</g>
+<g id="termtpkx" style="stroke-dasharray:3.2">
+<use xlink:href="#term" style="stroke:#554D26"/>
+<use xlink:href="#terms" style="stroke:#F2761E; stroke-width:2.5;"/>
+</g>
+<g id="sttpkx" style="stroke-dasharray:3.2">
+<use xlink:href="#st" style="stroke:#554D26"/>
+<use xlink:href="#sts" style="stroke:#F2761E; stroke-width:2.5;"/>
+</g>
+
+<use xlink:href="#intst" id="intstkozh" style="fill:#de62be"/>
+<use xlink:href="#intst-h" id="intst-hkozh" style="fill:#de62be"/>
+<use xlink:href="#term" id="termkozh" style="stroke:#de62be"/>
+<use xlink:href="#st" id="stkozh" style="stroke:#de62be"/>
+<use xlink:href="#intst" id="intstkozhx" style="fill:#f5cdeb"/>
+<use xlink:href="#intst-h" id="intst-hkozhx" style="fill:#f5cdeb"/>
+<use xlink:href="#term" id="termkozhx" style="stroke:#de62be; stroke-dasharray:3.2"/>
+<use xlink:href="#st" id="stkozhx" style="stroke:#de62be; stroke-dasharray:3.2"/>
+
+<g id="train" transform="matrix(0.07 0 0 0.08 -53,-13)">
+ <g style="fill-rule:evenodd;stroke:none">
+   <path style="fill:#000000"
+         d="M 1009,214 L 778,214 C 767,214 754,197 754,186 C 754,167 755,148 755,130 C 758,109 766,90 774,71 C 776,67 779,63 784,63 L 867,63 C 875,66 883,69 886,78 C 910,137 958,165 1012,175 L 1012,211 C 1012,212 1010,214 1009,214 z"/>
+   <path style="fill:#ffffff"
+         d="M 770,114 L 875,114 C 878,114 879,108 877,105 C 874,95 869,75 864,75 L 783,75 C 778,75 773,95 768,105 C 767,109 768,114 770,114 z"/>
+ </g>
+ <g style="fill:#ffffff;fill-rule:nonzero;stroke:none">
+  <path id="lamp" d="M 787,164 C 787,170 783,174 778,174 C 773,174 768,170 768,164 C 768,159 773,155 778,155 C 783,155 787,159 787,164 z"/>
+  <path transform="translate(80,0)" d="M 787,164 C 787,170 783,174 778,174 C 773,174 768,170 768,164 C 768,159 773,155 778,155 C 783,155 787,159 787,164 z"/>
+ </g>
+ <g style="fill:#ffffff;fill-rule:evenodd;stroke:none">
+  <path d="M 913,136 L 913,171 L 897,163 C 896,149 895,134 895,119 C 901,124 908,132 913,136 z"/>
+  <path d="M 937,155 L 938,182 L 922,175 C 922,161 922,159 922,144 C 929,150 932,151 937,155 z"/>
+  <path d="M 945,160 L 945,184 C 950,186 955,187 960,188 L 960,166 L 945,160 z"/>
+  <path d="M 966,169 L 966,190 C 970,191 974,192 978,192 L 978,172 L 966,169 z"/>
+  <path d="M 984,174 L 984,193 C 987,194 991,194 994,194 L 994,176 L 984,174 z"/>
+  <path d="M 999,177 L 999,195 L 1007,196 L 1007,178 L 999,177 z"/>
+ </g>
+ <path style="fill:#000000"
+       d="M 754,229 L 774,229 L 774,219 L 804,219 L 804,229 L 848,229 L 848,219 L 1012,219 L 1012,229 C 966,230 919,232 894,243 L 754,243 L 754,229 z"/>
+</g>
+
+<g id="airport" transform="rotate(-90)scale(0.04)translate(-250,-250)" style="stroke:none;fill:#000000">
+  <polygon points="490,250 450,225 320,225 170,10 140,10 200,225 80,225 30,150 10,150 30,240 30,260 10,350 30,350 80,275 200,275 140,490 170,490 320,275 450,275"/>
+  <ellipse cx="441" cy="250" rx="50" ry="24" stroke="#000000" />
+</g>
+
+</defs>
+
+<rect x="-200" y="-200" width="3000" height="3000" style="fill:white"/>
+
+<g id="river_group" style="fill:none;stroke:#e2fcfc;stroke-linejoin:round;stroke-linecap:round;opacity:1">
+<path id="moskva_river" style="stroke-width:15px"
+d="M -200,293
+L 150,293 a 30,30 0 0,1 30,30
+L 180,369 q 0,21 15,36
+L 335,545 q 15,15 36,15
+L 431,560 a 30,30 0 0,1 30,30
+L 461,705 q 0,25 -15,36
+L 386,801 a 30,30 0 0,0 60,60
+L 631,676 q 15,-15 36,-15
+L 761,661 q 25,0 36,15
+L 887,766 q 15,15 15,36
+L 902,912 a 20,20 0 0,0 20,20
+L 970,932 a 26,26 0 0,1 26,26
+L 996,976 c 0,25 -25,25 -25,50
+L 971,1026
+L 971,1085 a 39,39 0 0,0 39,39
+L 1010,1124
+L 1080,1124 q 21,0 36,15
+l 500,500" />
+
+<g id="small_river" style="stroke-width:5px">
+<path id="moskva_canal" d="M 185,390
+l 106,-106 q 15,-15 15,-36
+l 0,-4000" />
+
+<path id="vodootvodny_canal"
+d="M 570,740
+L 582,740 q 14,0 24,-10
+L 636,700 q 14,-10 24,-10
+L 759,690 q 21,0 36,15
+L 900,810" />
+
+<path id="yauza_river"
+d="M 810,690
+L 945,690 a 40,40 0 0,0 40,-40
+L 985,470 c 0,-20 20,-20 20,-40
+L 1005,341 q 0,-21 -15,-36
+L 907,222 q -15,-15 -36,-15
+L 830,207 a 30,30 0 0,1 -30,-30
+l 0,-10 q 0,-14 10,-24
+l 100,-100" />
+
+<path id="Nagatino_Kozhukhovo"
+d="M 912,932 L 940,904"/>
+
+</g>
+
+<path id="Nagatino_poyma" style="stroke-width:6px"
+d="M 953,891 a 20,20 0 0,1 28,0
+l 4,4 q 15,15 15,36 v 40
+"/>
+
+</g>
+
+<g id="aeroexpress_route_grey_line" style="fill:none;opacity:1;stroke-width:5px;stroke:#dddddd">
+<g id="Aeroexpress_general">
+<path id="sheremetyevo_express_line"
+d="M 461,398 
+l 40,-40 q 10,-10 10,-24
+V 150 q 0,-15 -10,-24
+l -32,-32"/>
+
+<path id="vnukovo_express_line"
+d="M 403,673 
+l -250,250"/>
+
+<path id="domodedovo_express_line"
+d="M 883,818 L 883,1300"/>
+</g>
+
+<use xlink:href="#Aeroexpress_general" id="aeroexpress_route_white_dash" style="stroke-width:4px;stroke:#FFFFFF;stroke-dasharray:10"/>
+</g>
+
+<g id="metro_route_group" style="fill:none;stroke-width:5;opacity:1">
+
+<path id="route1" style="stroke:#ff0000"
+d="M 1070,265 L 827,508
+768,508 q -14,0 -24,10
+L 305,957"/>
+
+<path id="route2" style="stroke:#029B52"
+d="M 323,235
+L 768,680 q 10,10 10,24
+L 778,712 q 0,14 10,24
+L 938,885 q 10,10 10,24
+L 948,1131 q 0,14 10,24
+L 992,1189 1052,1189"/>
+
+<path id="route3" style="stroke:#0256A4"
+d="M 77,218
+L 77,481 q 0,14 10,24
+L 200,618 q 10,10 24,10
+L 415,628 q 14,0 24,10 t 24,10
+L 547,648 q 14,0 24,-10 t 24,-10
+L 891,628 q 14,0 24,-10
+L 1146,387"/>
+
+<path id="route4" style="stroke:#029EE0"
+d="M 77,430
+L 207,560 q 10,10 24,10
+L 267,570 q 14,0 24,10
+L 309,598 q 10,10 24,10
+L 435,608 q 14,0 24,-10 t 24,-10
+L 581,588 q 14,0 24,10
+L 615,608
+
+M 413,505 L 413,588 A 20,20 0 0,0 433,608"/>
+
+<circle id="route5" cx="688" cy="583" r="260" style="stroke:#71592E"/>
+
+<path id="route6" style="stroke:#FFAB2E"
+d="M 828,108
+L 828,435 q 0,14 -10,24 t -10,24
+L 808,489
+L 808,671 q 0,14 -10,24
+L 528,965 q -10,10 -10,24
+L 518,1161"/>
+
+<path id="route7" style="stroke:#B5198D"
+d="M 254,232
+L 254,278 q 0,14 10,24
+L 422,460 q 10,10 24,10
+L 686,470 q 14,0 24,10
+L 788,558 q 10,10 10,24
+L 798,624 q 0,14 10,24
+L 1160,1000"/>
+
+<path id="route8" style="stroke:#FFD702"
+d="M 752,735 L 1032,735 1187,580"/>
+
+<path id="route9" style="stroke:#A9A9A9"
+d="M 575,57
+L 575,290 q 0,14 10,24
+L 671,400 a 21.2,21.2 0 0,1 0,30
+L 671,430
+615,488
+615,687 q 0,14 10,24
+L 751,837 q 10,10 10,24
+L 761,1077 q 0,14 -10,24
+L 641,1211"/>
+
+<path id="route10" style="stroke:#B3D52E"
+d="M 705,267
+L 705,411 q 0,14 10,24
+L 1002,722 q 10,10 10,24
+L 1012,1215"/>
+
+<path id="route11" style="stroke:#1A8BB9"
+d="M 789,1028 L 948,1028"/>
+
+<g id="routeL1_group" style="stroke:#8DD9FB">
+<g id="routeL1_blue_stripe">
+<path id="routeL1"
+d="M 622,1231
+L 594,1259 q -10,10 -24,10
+L 410,1269"/>
+</g>
+<use xlink:href="#routeL1_blue_stripe" id="routeL1_central_white_stripe" style="stroke:#FFFFFF; stroke-width:1px"/>
+</g>
+
+</g>
+
+<g id="monorail_group" style="opacity:1">
+<path id="monorail" style="fill:none;stroke-width:2;stroke:#77aaff"
+d="M 585,217 L 855,217"/>
+<use xlink:href="#stmono" x="585" y="217" id="Timiryazevskaya_mono"/>
+<use xlink:href="#stmono" x="635" y="217" id="Ulitsa_Milashenkova"/>
+<use xlink:href="#stmono" x="695" y="217" id="Teletsentr"/>
+<use xlink:href="#stmono" x="755" y="217" id="Ulitsa_Akademika_Koroleva"/>
+<use xlink:href="#stmono" x="815" y="217" id="Vystavochny_Tsentr"/>
+<use xlink:href="#stmono" x="855" y="217" id="Ulitsa_Sergeya_Eyzenshteyna"/>
+</g>
+
+<g id="interchange_group" style="opacity:1">
+<use xlink:href="#ele-int" x="77" y="430" id="Kuntsevskaya"/>
+<use xlink:href="#ele-int" x="808" y="648" id="Kitay-Gorod"/>
+<use xlink:href="#ele-int" x="948" y="1028" id="Kashirskaya"/>
+
+<use xlink:href="#int2" x="677" y="415" id="Trubnaya-Tsvetnoy_Bulvar"/>
+<use xlink:href="#int2" x="761" y="1028" id="Sevastopolskaya-Kakhovskaya"/>
+<use xlink:href="#int2" transform="translate(758,735)rotate(-45)" id="Tretyakovskaya-Novokuznetskaya"/>
+<use xlink:href="#int2" transform="translate(641,1211)rotate(135)" id="Bulvar_Dmitriya_Donskogo-Ulitsa_Starokachalovskaya"/>
+<use xlink:href="#int2" transform="translate(992,832)rotate(-45)" id="Proletarskaya-Krestyanskaya_Zastava"/>
+<use xlink:href="#int2" transform="translate(1012,755)rotate(-45)" id="Rimskaya-Ploshchad_Ilyicha"/>
+<use xlink:href="#int2" transform="translate(732,530)rotate(-90)" id="Kuznetsky_Most-Lubyanka"/>
+
+<use xlink:href="#int2" transform="translate(917,418)rotate(180)" id="Komsomolskaya"/>
+
+<use xlink:href="#int2" transform="translate(855,803)rotate(180)" id="Paveletskaya"/>
+<use xlink:href="#int2" transform="translate(761,832)rotate(90)" id="Dobryninskaya-Serpukhovskaya"/>
+<use xlink:href="#int2" transform="translate(653,840)rotate(-45)" id="Oktyabrskaya"/>
+<use xlink:href="#int2" transform="translate(486,748)rotate(90)" id="Park_Kultury"/>
+
+<use xlink:href="#int2" transform="translate(465,470)rotate(135)" id="Krasnopresnenskaya-Barrikadnaya"/>
+<use xlink:href="#int2" transform="translate(495,408)rotate(225)" id="Belorusskaya"/>
+<use xlink:href="#int2" transform="translate(587,316)rotate(90)" id="Mendeleyevskaya-Novoslobodskaya"/>
+<use xlink:href="#int2" transform="translate(808,353)rotate(-45)" id="Prospekt_Mira"/>
+
+<use xlink:href="#int2" transform="translate(992,1189)rotate(45)" id="Krasnogvardeyskaya-Zyablikovo"/>
+<use xlink:href="#int2" x="4000" y="4000" id="Bittsevsky_Park-Novoyasenevskaya"/>
+
+<use xlink:href="#int3-1" transform="translate(676,588)rotate(45)" id="Okhotny_Ryad-Teatralnaya-Ploshcha_Pevolyutsi"/>
+
+<use xlink:href="#int3-2" transform="translate(435,647)rotate(180)" id="Kievskaya"/>
+<use xlink:href="#int3-2" transform="translate(926,608)rotate(0)" id="Kurskaya-Chkalobskaya"/>
+<use xlink:href="#int3-2" transform="translate(576,488)rotate(-90)" id="Tverskaya-Pushkinskaya-Chekhovskaya"/>
+<use xlink:href="#int3-2" x="808" y="489" id="Turgenevskaya-Chistye_Prudy-Sretensky_Bulvar"/>
+<use xlink:href="#int3-2" x="914" y="716" id="Taganskaya-Marksistskaya"/>
+
+<use xlink:href="#int4" transform="translate(615,608)rotate(45)" id="Biblioteka_Imeni_Lenina-Arbatskaya_3-Alexandrovsky_Sad-Borovitskaya"/>
+
+</g>
+
+<g id="station_nodes_group" style="opacity:1">
+<g id="station_nodes_route1">
+<use xlink:href="#term1" transform="translate(1070,265)rotate(45)" id="Ulitsa_Podbelskogo"/>
+<use xlink:href="#st1" transform="translate(1040,295)rotate(45)" id="Cherkizovskaya"/>
+<use xlink:href="#st1" transform="translate(1010,325)rotate(45)" id="Preobrazhenskaya_Ploshchad"/>
+<use xlink:href="#st1" transform="translate(980,355)rotate(45)" id="Sokolniki"/>
+<use xlink:href="#st1" transform="translate(950,385)rotate(45)" id="Krasnoselskaya"/>
+<use xlink:href="#intst1" transform="translate(917,418)rotate(0)" id="Komsomolskaya_1"/>
+<use xlink:href="#st1" transform="translate(875,460)rotate(45)" id="Krasniye_Vorota"/>
+<use xlink:href="#intst1" x="826" y="508" id="Chistye_Prudy"/>
+<use xlink:href="#intst1" transform="translate(732,530)rotate(180)" id="Lubyanka"/>
+<use xlink:href="#intst1" x="676" y="588" id="Okhotny_Ryad"/>
+<use xlink:href="#intst1" transform="translate(635,628)rotate(45)" id="Biblioteka_Imeni_Lenina"/>
+<use xlink:href="#st1" transform="translate(564,698)rotate(225)" id="Kropotkinskaya"/>
+<use xlink:href="#intst1" transform="translate(486,776)rotate(225)" id="Park_Kultury_1"/>
+<use xlink:href="#st1" transform="translate(455,807)rotate(45)" id="Frunzenskaya"/>
+<use xlink:href="#st1" transform="translate(425,837)rotate(45)" id="Sportivnaya"/>
+<use xlink:href="#st1" transform="translate(395,867)rotate(45)" id="Vorobyovy_Gory"/>
+<use xlink:href="#st1" transform="translate(365,897)rotate(45)" id="Universitet"/>
+<use xlink:href="#st1" transform="translate(335,927)rotate(45)" id="Prospekt_Vernadskogo"/>
+<use xlink:href="#term1" transform="translate(305,957)rotate(45)" id="Yugo-Zapadnaya"/>
+</g>
+
+<g id="station_nodes_route2">
+<use xlink:href="#term2" transform="translate(323,235)rotate(-45)" id="Rechnoy_Vokzal"/>
+<use xlink:href="#st2" transform="translate(348,260)rotate(-45)" id="Vodny_Stadion"/>
+<use xlink:href="#st2" transform="translate(373,285)rotate(-45)" id="Voykovskaya"/>
+<use xlink:href="#st2" transform="translate(398,310)rotate(-45)" id="Sokol"/>
+<use xlink:href="#st2" transform="translate(423,335)rotate(-45)" id="Aeroport"/>
+<use xlink:href="#st2" transform="translate(448,360)rotate(-45)" id="Dinamo"/>
+<use xlink:href="#intst2" transform="translate(475.2,388.2)rotate(0)" id="Belorusskaya_2"/>
+<use xlink:href="#st2" transform="translate(528,440)rotate(-45)" id="Mayakovskaya"/>
+<use xlink:href="#intst2" transform="translate(576,488)rotate(180)" id="Tverskaya"/>
+<use xlink:href="#intst2" x="696" y="608" id="Teatralnaya"/>
+<use xlink:href="#intst2" transform="translate(778,715)rotate(225)" id="Novokuznetskaya"/>
+<use xlink:href="#intst2" transform="translate(855,803)rotate(-45)" id="Paveletskaya_2"/>
+<use xlink:href="#st2" transform="translate(924,872)rotate(135)" id="Avtozavodskaya"/>
+<use xlink:href="#st2" transform="translate(948,950)rotate(180)" id="Kolomenskaya"/>
+
+<use xlink:href="#st2" transform="translate(948,1075)rotate(180)" id="Kantemirovskaya"/>
+<use xlink:href="#st2" transform="translate(948,1105)rotate(180)" id="Tsaritsyno"/>
+<use xlink:href="#st2" transform="translate(948,1135)rotate(180)" id="Orekhovo"/>
+<use xlink:href="#st2" transform="translate(962,1159)rotate(135)" id="Domodedovskaya"/>
+<use xlink:href="#intst2" transform="translate(992,1189)rotate(180)" id="Krasnogvardeyskaya"/>
+<use xlink:href="#term2" transform="translate(1052,1189)rotate(90)" id="Alma-Atinskaya"/>
+</g>
+
+<g id="station_nodes_route3">
+<use xlink:href="#term3" x="77" y="218" id="Pyatnitskoye_Shosse"/>
+<use xlink:href="#st3" x="77" y="248" id="Mitino"/>
+<use xlink:href="#st3" x="77" y="278" id="Volokolamskaya"/>
+<use xlink:href="#st3" x="77" y="308" id="Myakinino"/>
+<use xlink:href="#st3" x="77" y="338" id="Strogino"/>
+<use xlink:href="#st3" x="77" y="368" id="Krylatskoye"/>
+<use xlink:href="#st3" x="77" y="398" id="Molodyozhnaya"/>
+
+<use xlink:href="#st3" transform="translate(137,557)rotate(135)" id="Slavyansky_Bulvar"/>
+<use xlink:href="#st3" transform="translate(227,628)rotate(90)" id="Park_Pobedy"/>
+<use xlink:href="#intst3" transform="translate(417,628)rotate(135)" id="Kievskaya_3"/>
+<use xlink:href="#st3" transform="translate(486,648)rotate(-90)" id="Smolenskaya_3"/>
+<use xlink:href="#intst3" transform="translate(595,628)rotate(225)" id="Arbatskaya_3"/>
+<use xlink:href="#intst3" transform="translate(716,628)rotate(-45)" id="Ploshchad_Revolyutsii"/>
+<use xlink:href="#intst3" x="826" y="4000" id="Khmelnitskaya"/>
+<use xlink:href="#intst3" x="926" y="608" id="Kurskaya_3"/>
+<use xlink:href="#st3" transform="translate(966,567)rotate(45)" id="Baumanskaya"/>
+<use xlink:href="#st3" transform="translate(996,537)rotate(45)" id="Elektrozavodskaya"/>
+<use xlink:href="#st3" transform="translate(1026,507)rotate(45)" id="Semyonovskaya"/>
+<use xlink:href="#st3" transform="translate(1056,477)rotate(45)" id="Partizanskaya"/>
+<use xlink:href="#st3" transform="translate(1086,447)rotate(45)" id="Izmaylovskaya"/>
+<use xlink:href="#st3" transform="translate(1116,417)rotate(45)" id="Pervomayskaya"/>
+<use xlink:href="#term3" transform="translate(1146,387)rotate(45)" id="Shchyolkovskaya"/>
+</g>
+
+<g id="station_nodes_route4">
+<use xlink:href="#term4" transform="translate(413,505)rotate(180)" id="Mezhdunarodnaya"/>
+<use xlink:href="#st4" transform="translate(413,535)rotate(180)" id="Vystavochnaya"/>
+<use xlink:href="#intst3" x="77" y="430" id="Kuntsevskaya_3"/>
+<use xlink:href="#intst-h4" transform="translate(77,430)rotate(180)" id="Kuntsevskaya_4"/>
+<path d="M 77,430 l 0,-5 0,10 z" style="stroke:white;stroke-width:1px;"/>
+<use xlink:href="#st4" transform="translate(117,470)rotate(-45)" id="Pionerskaya"/>
+<use xlink:href="#st4" transform="translate(147,500)rotate(-45)" id="Filyovsky_Park"/>
+<use xlink:href="#st4" transform="translate(177,530)rotate(-45)" id="Bagrationovskaya"/>
+<use xlink:href="#st4" transform="translate(207,560)rotate(-45)" id="Fili"/>
+<use xlink:href="#st4" transform="translate(295,584)rotate(135)" id="Kutuzovskaya"/>
+<use xlink:href="#st4" transform="translate(362,608)rotate(-90)" y="" id="Studencheskaya"/>
+<use xlink:href="#intst4" transform="translate(435,608)rotate(135)" id="Kievskaya_4"/>
+<use xlink:href="#st4" transform="translate(486,588)rotate(-90)" id="Smolenskaya_4"/>
+<use xlink:href="#st4" transform="translate(563,588)rotate(-90)" id="Arbatskaya_4"/>
+<use xlink:href="#intst4" transform="translate(615,608)rotate(180)" id="Alexandrovsky_Sad"/>
+</g>
+
+<g id="station_nodes_route5">
+<use xlink:href="#intst5" transform="translate(889,418)rotate(0)" id="Komsomolskaya_5"/>
+<use xlink:href="#intst5" transform="translate(944,627)rotate(-45)" id="Kurskaya_5"/>
+<use xlink:href="#intst5" transform="translate(827,803)rotate(-45)" id="Paveletskaya_5"/>
+<use xlink:href="#intst5" transform="translate(914,716)rotate(-90)" id="Taganskaya_5"/>
+<use xlink:href="#intst5" transform="translate(761,832)rotate(45)" id="Dobryninskaya"/>
+<use xlink:href="#intst5" transform="translate(653,840)rotate(225)" id="Oktyabrskaya_5"/>
+<use xlink:href="#intst5" transform="translate(486,748)rotate(135)" id="Park_Kultury_5"/>
+<use xlink:href="#intst5" transform="translate(435,647)rotate(180)" id="Kievskaya_5"/>
+<use xlink:href="#intst5" transform="translate(445,490)rotate(45)" id="Krasnopresnenskaya"/>
+<use xlink:href="#intst5" transform="translate(495,408)rotate(-45)" id="Belorusskaya_5"/>
+<use xlink:href="#intst5" transform="translate(587,344)rotate(90)" id="Novoslobodskaya"/>
+<use xlink:href="#intst5" x="808" y="353" id="Prospekt_Mira_5"/>
+</g>
+
+<g id="station_nodes_route6">
+<use xlink:href="#term6" x="828" y="108" id="Medvedkovo"/>
+<use xlink:href="#st6" x="828" y="138" id="Babushkinskaya"/>
+<use xlink:href="#st6" x="828" y="168" id="Sviblovo"/>
+<use xlink:href="#st6" x="828" y="198" id="Botanichesky_Sad"/>
+<use xlink:href="#st6" x="828" y="228" id="VDNKh"/>
+<use xlink:href="#st6" x="828" y="258" id="Alexeyevskaya"/>
+<use xlink:href="#st6" x="828" y="288" id="Rizhskaya"/>
+<use xlink:href="#intst6" transform="translate(828,333)rotate(45)" id="Prospekt_Mira_6"/>
+<use xlink:href="#st6" transform="translate(828,395)rotate(180)" id="Sukharevskaya"/>
+<use xlink:href="#intst6" x="808" y="489" id="Turgenevskaya"/>
+<use xlink:href="#intst6" x="808" y="648" id="Kitay-Gorod_6"/>
+
+<use xlink:href="#intst6" transform="translate(673,820)rotate(225)" id="Oktyabrskaya_6"/>
+<use xlink:href="#st6" transform="translate(637,856)rotate(45)" id="Shabolovskaya"/>
+<use xlink:href="#st6" transform="translate(607,886)rotate(45)" id="Leninsky_Prospekt"/>
+<use xlink:href="#st6" transform="translate(577,916)rotate(45)" id="Akademicheskaya"/>
+<use xlink:href="#st6" transform="translate(547,946)rotate(45)" id="Profsoyuznaya"/>
+<use xlink:href="#st6" transform="translate(520,975)rotate(22)" id="Noviye_Cheryomushki"/>
+<use xlink:href="#st6" x="518" y="1011" id="Kaluzhskaya"/>
+<use xlink:href="#st6" x="518" y="1041" id="Belyayevo"/>
+<use xlink:href="#st6" x="518" y="1071" id="Konkovo"/>
+<use xlink:href="#st6" x="518" y="1101" id="Tyoplyi_Stan"/>
+<use xlink:href="#st6" x="518" y="1131" id="Yasenevo"/>
+<use xlink:href="#term6" x="518" y="1161" id="Novoyasenevskaya"/>
+</g>
+
+<g id="station_nodes_route7">
+<use xlink:href="#term7" x="254" y="232" id="Planernaya"/>
+<use xlink:href="#st7" transform="translate(254,262)rotate(180)" id="Skhodnenskaya"/>
+<use xlink:href="#st7" transform="translate(256,290)rotate(157)" id="Tushinskaya"/>
+<use xlink:href="#st7" transform="translate(284,322)rotate(135)" id="Shchukinskaya"/>
+<use xlink:href="#st7" transform="translate(314,352)rotate(135)" id="Oktyabrskoye_Pole"/>
+<use xlink:href="#st7" transform="translate(344,382)rotate(135)" id="Polezhaevskaya"/>
+<use xlink:href="#st7" transform="translate(374,412)rotate(135)" id="Begovaya"/>
+<use xlink:href="#st7" transform="translate(404,442)rotate(135)" id="Ulitsa_1905_Goda"/>
+<use xlink:href="#intst7" transform="translate(465,470)rotate(-45)" id="Barrikadnaya"/>
+<use xlink:href="#intst7" transform="translate(595,470)rotate(-45)" id="Pushkinskaya"/>
+<use xlink:href="#intst7" transform="translate(732,502)rotate(180)" id="Kuznetsky_Most"/>
+<use xlink:href="#intst7" transform="translate(808,648)rotate(0)" id="Kitay-Gorod_7a"/>
+<use xlink:href="#intst-h6" transform="translate(808,648)rotate(180)" id="Kitay-Gorod_6a"/>
+<path d="M 808,648 l 0,-5 0,10 z" style="stroke:white;stroke-width:1px;"/>
+<use xlink:href="#intst7" transform="translate(914,755)rotate(-90)" id="Taganskaya_7"/>
+<use xlink:href="#intst7" x="992" y="832" id="Proletarskaya"/>
+<use xlink:href="#st7" transform="translate(1040,880)rotate(-45)" id="Volgogradsky_Prospekt"/>
+<use xlink:href="#st7" transform="translate(1070,910)rotate(-45)" id="Tekstilshchiki"/>
+<use xlink:href="#st7" transform="translate(1100,940)rotate(-45)" id="Kuzminki"/>
+<use xlink:href="#st7" transform="translate(1130,970)rotate(-45)" id="Ryazanskiy_Prospekt"/>
+<use xlink:href="#term7" transform="translate(1160,1000)rotate(-45)" id="Vykhino"/>
+<use xlink:href="#term7" transform="translate(4000,4000)rotate(-45)" id="Zhulebino"/>
+</g>
+
+<g id="station_nodes_route8">
+<use xlink:href="#intst6" transform="translate(758,735)rotate(225)" id="Tretyakovskaya_8a"/>
+<use xlink:href="#intst-h8" transform="translate(758,735)rotate(90)" id="Tretyakovskaya_6a"/>
+<path d="M 758,735 l -5,0 10,0 z" style="stroke:white;stroke-width:1px;"/>
+<use xlink:href="#intst8" transform="translate(932,735)rotate(-45)" id="Marksistskaya"/>
+<use xlink:href="#intst8" x="1031.5" y="735" id="Ploshchad_Ilicha"/>
+<use xlink:href="#st8" transform="translate(1067,700)rotate(45)" id="Aviamotornaya"/>
+<use xlink:href="#st8" transform="translate(1097,670)rotate(45)" id="Shosse_Entuziastov"/>
+<use xlink:href="#st8" transform="translate(1127,640)rotate(45)" id="Perovo"/>
+<use xlink:href="#st8" transform="translate(1157,610)rotate(45)" id="Novogireevo"/>
+<use xlink:href="#term8" transform="translate(1187,580)rotate(45)" id="Novokosino"/>
+</g>
+
+<g id="station_nodes_route9">
+<use xlink:href="#term9" x="575" y="57" id="Altufyevo"/>
+<use xlink:href="#st9" x="575" y="87" id="Bibirevo"/>
+<use xlink:href="#st9" x="575" y="117" id="Otradnoye"/>
+<use xlink:href="#st9" x="575" y="147" id="Vladykino"/>
+<use xlink:href="#st9" x="575" y="177" id="Petrovsko-Razumovskaya"/>
+<use xlink:href="#st9" x="575" y="207" id="Timiryazevskaya"/>
+<use xlink:href="#st9" x="575" y="237" id="Dmitrovskaya"/>
+<use xlink:href="#st9" x="575" y="275" id="Savyolovskaya"/>
+<use xlink:href="#intst9" transform="translate(587,316)rotate(-90)" id="Mendeleyevskaya"/>
+<use xlink:href="#intst9" transform="translate(677,415)rotate(180)" id="Tsvetnoy_Bulvar"/>
+<use xlink:href="#intst9" x="615" y="488" id="Chekhovskaya"/>
+<use xlink:href="#intst9" transform="translate(615,648)rotate(45)" id="Borovitskaya"/>
+<use xlink:href="#st9" transform="translate(678,764)rotate(135)" id="Polyanka"/>
+<use xlink:href="#intst9" x="761" y="860" id="Serpukhovskaya"/>
+<use xlink:href="#st9" x="761" y="902" id="Tulskaya"/>
+<use xlink:href="#st9" x="761" y="932" id="Nagatinskaya"/>
+<use xlink:href="#st9" x="761" y="962" id="Nagornaya"/>
+<use xlink:href="#st9" x="761" y="992" id="Nakhimovsky_Prospekt"/>
+<use xlink:href="#intst9" transform="translate(761,1028)rotate(180)" id="Sevastopolskaya"/>
+<use xlink:href="#st9" transform="translate(761,1062)rotate(0)" id="Chertanovskaya"/>
+<use xlink:href="#st9" transform="translate(759,1091)rotate(22)" id="Yuzhnaya"/>
+<use xlink:href="#st9" transform="translate(731,1121)rotate(45)" id="Prazhskaya"/>
+<use xlink:href="#st9" transform="translate(701,1151)rotate(45)" id="Ulitsa_Akademika_Yangelya"/>
+<use xlink:href="#st9" transform="translate(671,1181)rotate(45)" id="Annino"/>
+<use xlink:href="#intst9" transform="translate(641,1211)rotate(45)" id="Bulvar_Dmitriya_Donskogo"/>
+</g>
+
+<g id="station_nodes_route10">
+<use xlink:href="#term10" x="705" y="267" id="Marina_Roshcha"/>
+<use xlink:href="#st10" x="705" y="297" id="Dostoyevskaya"/>
+<use xlink:href="#intst10" x="705" y="415" id="Trubnaya"/>
+<use xlink:href="#intst10" x="808" y="528" id="Sretensky_Bulvar"/>
+<use xlink:href="#intst10" x="926" y="647" id="Chkalovskaya"/>
+<use xlink:href="#intst10" x="1012" y="755" id="Rimskaya"/>
+<use xlink:href="#intst10" x="1012" y="812" id="Krestyanskaya_Zastava"/>
+<use xlink:href="#st10" x="1012" y="929" id="Dubrovka"/>
+<use xlink:href="#st10" x="1012" y="959" id="Kozhukhovskaya"/>
+<use xlink:href="#st10" x="1012" y="989" id="Pechatniki"/>
+<use xlink:href="#st10" x="1012" y="1019" id="Volzhskaya"/>
+<use xlink:href="#st10" x="1012" y="1049" id="Lyublino"/>
+<use xlink:href="#st10" x="1012" y="1079" id="Bratislavskaya"/>
+<use xlink:href="#st10" x="1012" y="1109" id="Marino"/>
+<use xlink:href="#st10" x="1012" y="1139" id="Borisovo"/>
+<use xlink:href="#st10" x="1012" y="1169" id="Shipilovskaya"/>
+<use xlink:href="#intst10" transform="translate(1012,1209)rotate(180)" id="Zyablikovo"/>
+</g>
+
+<g id="station_nodes_route11">
+<use xlink:href="#intst11" transform="translate(789,1028)rotate(90)" id="Kakhovskaya_11"/>
+<use xlink:href="#st11" transform="translate(865,1028)rotate(-90)" id="Varshavskaya"/>
+<use xlink:href="#intst2" transform="translate(948,1028)rotate(135)" id="Kashirskaya_2"/>
+<use xlink:href="#intst-h11" transform="translate(948,1028)rotate(0)" id="Kashirskaya_11"/>
+<path d="M 948,1028 l 0,-5 0,10 z" style="stroke:white;stroke-width:1px;"/>
+</g>
+
+<g id="station_nodes_routeL1">
+<use xlink:href="#intstl1" x="4000" y="4000" id="Bittsevsky_Park"/>
+<use xlink:href="#stl1" transform="translate(4000,4000) rotate(135)" id="Lesoparkovaya"/>
+<use xlink:href="#intstl1" transform="translate(621.5,1231)rotate(45)" id="Ulitsa_Starokachalovskaya"/>
+<use xlink:href="#stl1" transform="translate(594,1259)rotate(45)" id="Ulitsa_Skobelevskaya"/>
+<use xlink:href="#stl1" transform="translate(540,1269)rotate(90)" id="Bulvar_Admirala_Ushakova"/>
+<use xlink:href="#stl1" transform="translate(480,1269)rotate(-90)" id="Ulitsa_Gorchakova"/>
+<use xlink:href="#terml1" transform="translate(410,1269)rotate(90)" id="Buninskaya_Alleya"/>
+<use xlink:href="#stmr" transform="translate(4000,4000)" id="Ulitsa_Staropotapovskaya"/>
+<use xlink:href="#stmr" transform="translate(4000,4000)" id="Ulitsa_Ostafyevskaya"/>
+<use xlink:href="#termmr" transform="translate(4000,4000)" id="Novokuryanovo"/>
+</g>
+
+<g id="train_icon_group">
+<use xlink:href="#train" transform="translate(887,400)rotate(0)" id="Leningradsky"/>
+<use xlink:href="#train" transform="translate(907,400)rotate(0)" id="Yaroslavsky"/>
+<use xlink:href="#train" transform="translate(917,438)rotate(0)" id="Kazansky"/>
+<use xlink:href="#train" transform="translate(957,627)rotate(0)" id="Kursky"/>
+<use xlink:href="#train" transform="translate(870,805)rotate(0)" id="Paveletsky"/>
+<use xlink:href="#train" transform="translate(410,660)rotate(0)" id="Kievsky"/>
+<use xlink:href="#train" transform="translate(466,410)rotate(0)" id="Belorusky"/>
+<use xlink:href="#train" transform="translate(587,260)rotate(0)" id="Savyolovsky"/>
+<use xlink:href="#train" transform="translate(806,288)rotate(0)" id="Rizhsky"/>
+</g>
+
+<g id="aeroexpress_node_group">
+<use xlink:href="#stvok" transform="translate(461,398)rotate(0)" id="Belorusky_Aeroexpress"/>
+<use xlink:href="#stvok" transform="translate(469,94)rotate(0)" id="Sheremetyevo_Station"/>
+<use xlink:href="#airport" transform="translate(454,83)rotate(0)" id="Sheremetyevo_Airport"/>
+
+<use xlink:href="#stvok" transform="translate(403,673)rotate(0)" id="Kievsky_Aeroexpress"/>
+<use xlink:href="#stvok" transform="translate(153,923)rotate(0)" id="Vnukovo_Platform"/>
+<use xlink:href="#airport" transform="translate(137,923)rotate(0)" id="Vnukovo_Airport"/>
+
+<use xlink:href="#stvok" transform="translate(883,818)rotate(0)" id="Paveletsky_Aeroexpress"/>
+<use xlink:href="#stvok" transform="translate(883,1300)rotate(0)" id="Domodedovo_Platform"/>
+<use xlink:href="#airport" transform="translate(900,1298)rotate(0)" id="Domodedovo_Airport"/>
+</g>
+
+</g>
+
+
+<text id="route_terminal_num" class="ic" style="font-size:12;text-anchor:middle;opacity:1">
+<tspan x="1080" y="255" style="fill:red">1</tspan>
+<tspan x="290" y="972" style="fill:red">1</tspan>
+<tspan x="318" y="230" style="fill:#029B52">2</tspan>
+<tspan x="1068" y="1192" style="fill:#029B52">2</tspan>
+<tspan x="77" y="208" style="fill:#0256A4">3</tspan>
+<tspan x="1158" y="377" style="fill:#0256A4">3</tspan>
+<tspan x="59" y="434" style="fill:#029EE0">4</tspan>
+<tspan x="633" y="608" style="fill:#029EE0">4</tspan>
+<tspan x="413" y="500" style="fill:#029EE0">4</tspan>
+<tspan x="445" y="714" style="fill:#71592E">5</tspan>
+<tspan x="865" y="378" style="fill:#71592E">5</tspan>
+<tspan x="828" y="98" style="fill:#FFAB2E">6</tspan>
+<tspan x="518" y="1181" style="fill:#FFAB2E">6</tspan>
+<tspan x="254" y="222" style="fill:#B5198D">7</tspan>
+<tspan x="1175" y="1015" style="fill:#B5198D">7</tspan>
+<tspan x="740" y="739" style="fill:#DDB702">8</tspan>
+<tspan x="1199" y="568" style="fill:#DDB702">8</tspan>
+<tspan x="575" y="47" style="fill:#999999">9</tspan>
+<tspan x="631" y="1201" style="fill:#999999">9</tspan>
+<tspan x="705" y="257" style="fill:#93B50E">10</tspan>
+<tspan x="1011" y="1235" style="fill:#93B50E">10</tspan>
+<tspan x="789" y="1016" style="fill:#1A8BB9">11</tspan>
+<tspan x="937" y="1016" style="fill:#1A8BB9">11</tspan>
+<tspan x="610" y="1219" style="fill:#6DB9DB">Л1</tspan>
+<tspan x="395" y="1273" style="fill:#6DB9DB">Л1</tspan>
+<tspan x="563" y="220" style="fill:#77aaff">М1</tspan>
+<tspan x="870" y="220" style="fill:#77aaff">М1</tspan>
+</text>
+
+<g id="ic_num_group" transform="translate(0,2.5)" style="opacity:1">
+<text id="ic_num_white" class="ic" style="font-size:10;text-anchor:middle;fill:#FFFFFF">
+<tspan x="917" y="418">1</tspan><!--Komsomolskaya-->
+<tspan x="826" y="508">1</tspan><!--Chistye Prudy-->
+<tspan x="732" y="530">1</tspan><!--Lubyanka-->
+<tspan x="676" y="588">1</tspan><!--Okhotny_Ryad-->
+<tspan x="635" y="628">1</tspan><!--Biblioteka_Imeni_Lenina-->
+<tspan x="486" y="776">1</tspan><!--Park_Kultury-->
+<tspan x="475.2" y="388.2">2</tspan><!--Belorusskaya-->
+<tspan x="576" y="488">2</tspan><!--Tverskaya-->
+<tspan x="696" y="608">2</tspan><!--Teatralnaya-->
+<tspan x="778" y="715">2</tspan><!--Novokuznetskaya-->
+<tspan x="855" y="803">2</tspan><!--Paveletskaya-->
+<tspan x="992" y="1189">2</tspan><!--Krasnogvardeyskaya-->
+<tspan x="417" y="628">3</tspan><!--Kievskaya-->
+<tspan x="595" y="628">3</tspan><!--Arbatskaya-->
+<tspan x="716" y="628">3</tspan><!--Ploshchad_Revolyutsii-->
+<tspan x="926" y="608">3</tspan><!--Kurskaya-->
+<tspan x="435" y="608">4</tspan><!--Kievskaya-->
+<tspan x="615" y="608">4</tspan><!--Alexandrovsky_Sad-->
+<tspan x="889" y="418">5</tspan><!--Komsomolskaya-->
+<tspan x="944" y="627">5</tspan><!--Kurskaya-->
+<tspan x="914" y="716">5</tspan><!--Taganskaya-->
+<tspan x="827" y="803">5</tspan><!--Paveletskaya-->
+<tspan x="761" y="832">5</tspan><!--Dobryninskaya-->
+<tspan x="653" y="840">5</tspan><!--Oktyabrskaya-->
+<tspan x="486" y="748">5</tspan><!--Park_Kultury-->
+<tspan x="435" y="647">5</tspan><!--Kievskaya-->
+<tspan x="445" y="490">5</tspan><!--Krasnopresnenskaya-->
+<tspan x="495" y="408">5</tspan><!--Belorusskaya-->
+<tspan x="587" y="344">5</tspan><!--Novoslobodskaya-->
+<tspan x="808" y="353">5</tspan><!--Prospekt Mira-->
+<tspan x="465" y="470">7</tspan><!--Barrikadnaya-->
+<tspan x="595" y="470">7</tspan><!--Pushkinskaya-->
+<tspan x="732" y="502">7</tspan><!--Kuznetsky_Most-->
+<tspan x="914" y="755">7</tspan><!--Taganskaya-->
+<tspan x="992" y="832">7</tspan><!--Proletarskaya-->
+<tspan x="789" y="1028" style="font-size:9">11</tspan><!--Kakhovskaya-->
+</text>
+
+<text id="ic_num_black" class="ic" style="font-size:10;text-anchor:middle;fill:#000000">
+<tspan x="828" y="333">6</tspan><!--Prospekt Mira-->
+<tspan x="808" y="489">6</tspan><!--Turgenevskaya-->
+<tspan x="673" y="820">6</tspan><!--Oktyabrskaya-->
+<tspan x="932" y="735">8</tspan><!--Marksistskaya-->
+<tspan x="1031.5" y="735">8</tspan><!--Ploshchad_Ilyicha-->
+<tspan x="587" y="316">9</tspan><!--Mendeleyevskaya-->
+<tspan x="677" y="415">9</tspan><!--Tsvetnoy_Bulvar-->
+<tspan x="615" y="488">9</tspan><!--Chekhovskaya-->
+<tspan x="615" y="648">9</tspan><!--Borovitskaya-->
+<tspan x="761" y="860">9</tspan><!--Serpukhovskaya-->
+<tspan x="761" y="1028">9</tspan><!--Sevastopolskaya-->
+<tspan x="641" y="1211">9</tspan><!--Bulvar_Dmitriya_Donskogo-->
+</text>
+
+<text id="ic_num_black" class="ic" style="font-size:9;text-anchor:middle;fill:#000000">
+<tspan x="705" y="415">10</tspan><!--Trubnaya-->
+<tspan x="808" y="528">10</tspan><!--Sretensky_Bulvar-->
+<tspan x="926" y="647">10</tspan><!--Chkalovskaya-->
+<tspan x="1012" y="755">10</tspan><!--Rimskaya-->
+<tspan x="1012" y="812">10</tspan><!--Krestyanskaya_Zastava-->
+<tspan x="1012" y="1209">10</tspan><!--Zyablikovo-->
+<tspan x="621.5" y="1231" style="font-size:8">Л1</tspan>
+</text>
+</g>
+
+
+<g id="stname_group" style="stroke:white; stroke-width:3px; stroke-linejoin:round; opacity:1">
+<text id="stname" transform="translate(0,4)" style="font-size:13px; font-family:Liberation Sans,Arial,sans-serif;">
+<!--#1-->
+<tspan x="1080" y="275">Улица Подбельского</tspan>
+<tspan x="1050" y="305">Черкизовская</tspan>
+<tspan x="1020" y="335">Преображенская площадь</tspan>
+<tspan x="990" y="365">Сокольники</tspan>
+<tspan x="960" y="395">Красносельская</tspan>
+<tspan x="932" y="418" style="font-weight:bold">Комсомольская</tspan>
+<tspan x="885" y="470">Красные ворота</tspan>
+<tspan x="837" y="508" style="font-weight:bold;fill:red">Чистые пруды</tspan>
+<tspan x="720" y="530" style="font-weight:bold;fill:red;text-anchor:end">Лубянка</tspan>
+<tspan x="688" y="584" style="font-weight:bold;fill:red">Охотный ряд</tspan>
+<tspan x="642" y="643" style="font-weight:bold;fill:red">Библиотека</tspan>
+<tspan x="642" y="655" style="font-weight:bold;fill:red">имени Ленина</tspan>
+<tspan x="555" y="688" style="text-anchor:end">Кропоткинская</tspan>
+<tspan x="475" y="762" style="text-anchor:end;font-weight:bold">Парк культуры</tspan>
+<tspan x="465" y="817">Фрунзенская</tspan>
+<tspan x="435" y="847">Спортивная</tspan>
+<tspan x="405" y="877">Воробьёвы горы</tspan>
+<tspan x="375" y="907">Университет</tspan>
+<tspan x="345" y="937">Проспект Вернадского</tspan>
+<tspan x="315" y="967">Юго-Западная</tspan>
+
+<!--#2-->
+<tspan x="333" y="225">Речной вокзал</tspan>
+<tspan x="358" y="250">Водный стадион</tspan>
+<tspan x="383" y="275">Войковская</tspan>
+<tspan x="408" y="300">Сокол</tspan>
+<tspan x="433" y="325">Аэропорт</tspan>
+<tspan x="458" y="350">Динамо</tspan>
+<tspan x="492" y="388" style="font-weight:bold">Белорусская</tspan>
+<tspan x="538" y="432">Маяковская</tspan>
+<tspan x="564" y="486" style="font-weight:bold;fill:#029B52;text-anchor:end">Тверская</tspan>
+<tspan x="706" y="601" style="font-weight:bold;fill:#029B52">Театральная</tspan>
+<tspan x="767" y="701" style="text-anchor:end;font-weight:bold;fill:#029B52">Новокузнецкая</tspan>
+<tspan x="861" y="789" style="font-weight:bold">Павелецкая</tspan>
+<tspan x="916" y="882" style="text-anchor:end">Автозаводская</tspan>
+<tspan x="937" y="950" style="text-anchor:end">Коломенская</tspan>
+<tspan x="941" y="1040" style="font-weight:bold;text-anchor:end">Каширская</tspan>
+<tspan x="937" y="1075" style="text-anchor:end">Кантемировская</tspan>
+<tspan x="937" y="1105" style="text-anchor:end">Царицыно</tspan>
+<tspan x="937" y="1135" style="text-anchor:end">Орехово</tspan>
+<tspan x="952" y="1165" style="text-anchor:end">Домодедовская</tspan>
+<tspan x="978" y="1189" style="font-weight:bold;fill:#029B52;text-anchor:end">Красногвардейская</tspan>
+<tspan x="1045" y="1207">Алма-Атинская</tspan>
+
+<!--#3-->
+<tspan x="87" y="210">Пятницкое</tspan>
+<tspan x="87" y="225">шоссе</tspan>
+<tspan x="87" y="248">Митино</tspan>
+<tspan x="87" y="278">Волоколамская</tspan>
+<tspan x="87" y="308">Мякинино</tspan>
+<tspan x="87" y="338">Строгино</tspan>
+<tspan x="87" y="368">Крылатское</tspan>
+<tspan x="87" y="398">Молодёжная</tspan>
+<tspan x="90" y="430" style="font-weight:bold">Кунцевская</tspan>
+<tspan x="127" y="567" style="text-anchor:end">Славянский</tspan>
+<tspan x="127" y="580" style="text-anchor:end">бульвар</tspan>
+<tspan x="227" y="643" style="text-anchor:middle">Парк Победы</tspan>
+<tspan x="419" y="643" style="font-weight:bold;text-anchor:end">Киевская</tspan>
+<tspan x="484" y="633" style="text-anchor:middle">Смоленская</tspan>
+<tspan x="582" y="620" style="font-weight:bold;fill:#0256A4;text-anchor:end">Арбатская</tspan>
+<tspan x="726" y="616" style="font-weight:bold;fill:#0256A4">Площадь Революции</tspan>
+<tspan x="4000" y="628" style="font-weight:bold;fill:#0256A4">Хмельницкая</tspan>
+<tspan x="953" y="608" style="font-weight:bold;">Курская</tspan>
+<tspan x="976" y="577">Бауманская</tspan>
+<tspan x="1006" y="547">Электрозаводская </tspan>
+<tspan x="1036" y="517">Семёновская</tspan>
+<tspan x="1066" y="487">Партизанская</tspan>
+<tspan x="1096" y="457">Измайловская</tspan>
+<tspan x="1126" y="427">Первомайская</tspan>
+<tspan x="1156" y="397">Щёлковская</tspan>
+
+<!--#4-->
+<tspan x="402" y="505" style="text-anchor:end">Международная</tspan>
+<tspan x="402" y="535" style="text-anchor:end">Выставочная</tspan>
+<tspan x="127" y="460">Пионерская</tspan>
+<tspan x="157" y="490">Филёвский парк</tspan>
+<tspan x="187" y="520">Багратионовская</tspan>
+<tspan x="217" y="550">Фили</tspan>
+<tspan x="300" y="600" style="text-anchor:end">Кутузовская</tspan>
+<tspan x="362" y="593" style="text-anchor:middle">Студенческая</tspan>
+<tspan x="480" y="573" style="text-anchor:middle">Смоленская-2</tspan>
+<tspan x="571" y="573" style="text-anchor:middle">Арбатская-2</tspan>
+<tspan x="602" y="604" style="font-weight:bold;fill:#029EE0;text-anchor:end">Александровский сад</tspan>
+
+<!--#5-->
+<tspan x="578" y="362" style="font-weight:bold;fill:#71592E;">Новослободская</tspan>
+<tspan x="445" y="508" style="font-weight:bold;fill:#71592E;">Краснопресненская</tspan>
+<tspan x="774" y="838" style="font-weight:bold;fill:#71592E;">Добрынинская</tspan>
+
+<!--#6-->
+<tspan x="838" y="108">Медведково</tspan>
+<tspan x="838" y="138">Бабушкинская</tspan>
+<tspan x="838" y="168">Свиблово</tspan>
+<tspan x="838" y="198">Ботанический сад</tspan>
+<tspan x="838" y="229">ВДНХ</tspan>
+<tspan x="838" y="258">Алексеевская</tspan>
+<tspan x="838" y="288">Рижская</tspan>
+<tspan x="840" y="340" style="font-weight:bold;">Проспект</tspan>
+<tspan x="840" y="354" style="font-weight:bold;">Мира</tspan>
+<tspan x="818" y="395" style="text-anchor:end">Сухаревская</tspan>
+<tspan x="821" y="489" style="font-weight:bold;fill:#FFAB2E">Тургеневская</tspan>
+<tspan x="821" y="648" style="font-weight:bold;">Китай-город</tspan>
+<tspan x="747" y="721" style="font-weight:bold;text-anchor:end">Третьяковская</tspan>
+<tspan x="663" y="810" style="font-weight:bold;text-anchor:end">Октябрьская</tspan>
+<tspan x="647" y="866">Шаболовская</tspan>
+<tspan x="617" y="896">Ленинский проспект</tspan>
+<tspan x="587" y="926">Академическая</tspan>
+<tspan x="557" y="956">Профсоюзная</tspan>
+<tspan x="531" y="981">Новые Черёмушки</tspan>
+<tspan x="528" y="1011">Калужская</tspan>
+<tspan x="528" y="1041">Беляево</tspan>
+<tspan x="528" y="1071">Коньково</tspan>
+<tspan x="528" y="1101">Тёплый Стан</tspan>
+<tspan x="528" y="1131">Ясенево</tspan>
+<tspan x="528" y="1161">Новоясеневская</tspan>
+
+<!--#7-->
+<tspan x="244" y="232" style="text-anchor:end">Планерная</tspan>
+<tspan x="244" y="262" style="text-anchor:end">Сходненская</tspan>
+<tspan x="247" y="297" style="text-anchor:end">Тушинская</tspan>
+<!--<tspan x="247" y="297" style="text-anchor:end">Спартак</tspan>-->
+<tspan x="274" y="332" style="text-anchor:end">Щукинская</tspan>
+<tspan x="304" y="362" style="text-anchor:end">Октябрьское поле</tspan>
+<tspan x="334" y="392" style="text-anchor:end">Полежаевская</tspan>
+<tspan x="364" y="422" style="text-anchor:end">Беговая</tspan>
+<tspan x="394" y="452" style="text-anchor:end">Улица 1905 года</tspan>
+<tspan x="473" y="458" style="font-weight:bold;fill:#B5198D">Баррикадная</tspan>
+<tspan x="605" y="458" style="font-weight:bold;fill:#B5198D;">Пушкинская</tspan>
+<tspan x="720" y="502" style="font-weight:bold;fill:#B5198D;text-anchor:end">Кузнецкий</tspan>
+<tspan x="720" y="514" style="font-weight:bold;fill:#B5198D;text-anchor:end">мост</tspan>
+<tspan x="872" y="698" style="font-weight:bold;">Таганская</tspan>
+<tspan x="1018" y="832" style="font-weight:bold;fill:#B5198D">Пролетарская</tspan>
+<tspan x="1050" y="870">Волгоградский проспект</tspan>
+<tspan x="1080" y="900">Текстильщики</tspan>
+<tspan x="1110" y="930">Кузьминки</tspan>
+<tspan x="1140" y="960">Рязанский проспект</tspan>
+<tspan x="1170" y="990">Выхино</tspan>
+<tspan x="4000" y="4000" fill="#b2b2b2">Жулебино</tspan>
+
+<!--#8-->
+<tspan x="934" y="719" style="font-weight:bold;fill:#DDB702;">Марксистская</tspan>
+<tspan x="1044" y="735" style="font-weight:bold;fill:#DDB702">Площадь Ильича</tspan>
+<tspan x="1077" y="710">Авиамоторная</tspan>
+<tspan x="1107" y="680">Шоссе Энтузиастов</tspan>
+<tspan x="1137" y="650">Перово</tspan>
+<tspan x="1167" y="620">Новогиреево</tspan>
+<tspan x="1197" y="590">Новокосино</tspan>
+
+<!--#9-->
+<tspan x="585" y="57">Алтуфьево</tspan>
+<tspan x="585" y="87">Бибирево</tspan>
+<tspan x="585" y="117">Отрадное</tspan>
+<tspan x="585" y="147">Владыкино</tspan>
+<tspan x="585" y="177">Петровско-Разумовская</tspan>
+<tspan x="585" y="206">Тимирязевская</tspan>
+<tspan x="585" y="237">Дмитровская</tspan>
+<tspan x="585" y="275">Савёловская</tspan>
+<tspan x="586" y="298" style="font-weight:bold;fill:#888888;">Менделеевская</tspan>
+<tspan x="664" y="413" style="font-weight:bold;fill:#888888;text-anchor:end">Цветной бульвар</tspan>
+<tspan x="628" y="486" style="font-weight:bold;fill:#888888">Чеховская</tspan>
+<tspan x="625" y="670" style="font-weight:bold;fill:#888888">Боровицкая</tspan>
+<tspan x="670" y="774" style="text-anchor:end">Полянка</tspan>
+<tspan x="774" y="860" style="font-weight:bold;fill:#888888">Серпуховская</tspan>
+<tspan x="771" y="902">Тульская</tspan>
+<tspan x="771" y="932">Нагатинская</tspan>
+<tspan x="771" y="962">Нагорная</tspan>
+<tspan x="771" y="992">Нахимовский проспект</tspan>
+<tspan x="747" y="1028" style="font-weight:bold;fill:#888888;text-anchor:end">Севастопольская</tspan>
+<tspan x="771" y="1061">Чертановская</tspan>
+<tspan x="771" y="1097">Южная</tspan>
+<tspan x="741" y="1131">Пражская</tspan>
+<tspan x="711" y="1156">Улица Академика</tspan>
+<tspan x="711" y="1171">Янгеля</tspan>
+<tspan x="681" y="1191">Аннино</tspan>
+<tspan x="652" y="1221" style="font-weight:bold;fill:#888888">Бульвар Дмитрия Донского</tspan>
+
+<!--#10-->
+<tspan x="715" y="267">Марьина Роща</tspan>
+<tspan x="715" y="297">Достоевская</tspan>
+<tspan x="718" y="413" style="font-weight:bold;fill:#93B50E">Трубная</tspan>
+<tspan x="821" y="528" style="font-weight:bold;fill:#93B50E;">Сретенский</tspan>
+<tspan x="832" y="543" style="font-weight:bold;fill:#93B50E;">бульвар</tspan>
+<tspan x="947" y="646" style="font-weight:bold;fill:#93B50E">Чкаловская</tspan>
+<tspan x="1027" y="755" style="font-weight:bold;fill:#93B50E">Римская</tspan>
+<tspan x="1027" y="812" style="font-weight:bold;fill:#93B50E;">Крестьянская застава</tspan>
+<tspan x="1022" y="929">Дубровка</tspan>
+<tspan x="1022" y="959">Кожуховская</tspan>
+<tspan x="1022" y="989">Печатники</tspan>
+<tspan x="1022" y="1019">Волжская</tspan>
+<tspan x="1022" y="1049">Люблино</tspan>
+<tspan x="1022" y="1079">Братиславская</tspan>
+<tspan x="1022" y="1109">Марьино</tspan>
+<tspan x="1022" y="1139">Борисово</tspan>
+<tspan x="1022" y="1169">Шипиловская</tspan>
+<tspan x="995" y="1209" style="font-weight:bold;fill:#93B50E;text-anchor:end">Зябликово</tspan>
+
+<!--#11-->
+<tspan x="775" y="1045" style="font-weight:bold;fill:#1A8BB9">Каховская</tspan>
+<tspan x="865" y="1013" style="text-anchor:middle">Варшавская</tspan>
+
+<!--L1-->
+<tspan x="4000" y="4000" style="font-weight:bold;fill:#b2b2b2">Битцевский парк</tspan>
+<tspan x="4000" y="4000" style="text-anchor:end;fill:#b2b2b2">Лесопарковая</tspan>
+<tspan x="633" y="1241" style="font-weight:bold;fill:#6DB9DB;">Улица Старокачаловская</tspan>
+<tspan x="604" y="1269">Улица Скобелевская</tspan>
+<tspan x="540" y="1285" style="text-anchor:middle">Бульвар Адмирала</tspan>
+<tspan x="540" y="1299" style="text-anchor:middle">Ушакова</tspan>
+<tspan x="480" y="1252" style="text-anchor:middle">Улица Горчакова</tspan>
+<tspan x="410" y="1285" style="text-anchor:middle">Бунинская аллея</tspan>
+</text>
+
+<text id="terminalname" transform="translate(0,4)" style="opacity:1;font-size:10px;font-color:black;font-family:Liberation Sans,Arial,sans-serif;">
+<!--Railway Terminal-->
+<tspan x="938" y="436">Казанский</tspan>
+<tspan x="978" y="627">Курский</tspan>
+<tspan x="891" y="805">Павелецкий</tspan>
+<tspan x="404" y="658" style="text-anchor:end">Киевский</tspan>
+<tspan x="463" y="411" style="text-anchor:end">Белорусский</tspan>
+<tspan x="608" y="260">Савёловский</tspan>
+<tspan x="803" y="282" style="text-anchor:end">Рижский</tspan>
+
+<!--Airport-->
+<tspan x="441" y="85" style="text-anchor:end">Шереметьево</tspan>
+<tspan x="137" y="940" style="text-anchor:middle">Внуково</tspan>
+<tspan x="893" y="1315" style="text-anchor:middle">Домодедово</tspan>
+</text>
+
+</g>
+
+<g id="station_name_with_stroke_group" style="opacity:1;fill:black; stroke:none">
+<use xlink:href="#stname"/>
+<use xlink:href="#terminalname"/>
+
+<text class="vok" transform="translate(898,388)rotate(-45)">Ленинградский</text>
+<text class="vok" transform="translate(918,388)rotate(-45)">Ярославский</text>
+</g>
+
+<g id="river_name_group" style="fill:#5555ff;opacity:1">
+<text class="st" transform="translate(220,435)rotate(45)">Москва-река</text>
+<!--
+<text class="st" x="722" y="700" style="font-size:9px; text-anchor:middle">Водоотводный канал</text>
+-->
+<text class="st" transform="translate(1120,1147)rotate(45)">Москва-река</text>
+<text class="st" transform="translate(303,210)rotate(-90)">Канал имени Москвы</text>
+<text class="st" transform="translate(940,248)rotate(45)">Яуза</text>
+</g>
+
+
+<g id="title_group" style="opacity:1">
+<path fill="black" stroke="none"
+d="M -20,45 L 400,45 c 50,0 50,0 80,-30 l 70,-70 L -20,-20"/>
+
+<text x="36" y="25" style="font-size:18px;fill:white;font-family:Liberation Sans,Arial,sans-serif">Схема линий Московского метрополитена (2012)</text>
+</g>
+
+<g id="linebox_group" transform="translate(40,1350)" style="opacity:1">
+<path stroke="#cccccc" stroke-width="3px" d="M 0,0 L 1250,0"/>
+<text class="legendtext" x="635" y="-5" style="font-weight:bold; text-anchor:middle">Линии</text>
+
+<g id="legendg1">
+<path d="M 15,15 L 55,15" style="fill:none;stroke:#ff0000;stroke-width:5" id="route1color"/>
+<path d="M 15,35 L 55,35" style="fill:none;stroke:#029B52;stroke-width:5" id="route2color"/>
+<path d="M 15,55 L 55,55" style="fill:none;stroke:#0256A4;stroke-width:5" id="route3color"/>
+<path d="M 15,75 L 55,75" style="fill:none;stroke:#029EE0;stroke-width:5" id="route4color"/>
+
+<text class="legendtext">
+<tspan x="65" y="20">#1</tspan><tspan x="110" y="20">Сокольническая линия</tspan>
+<tspan x="65" y="40">#2</tspan><tspan x="110" y="40">Замоскворецкая линия</tspan>
+<tspan x="65" y="60">#3</tspan><tspan x="110" y="60">Арбатско-Покровская линия</tspan>
+<tspan x="65" y="80">#4</tspan><tspan x="110" y="80">Филёвская линия</tspan>
+</text>
+</g>
+
+<g id="legendg2" transform="translate(417,0)">
+<path d="M 15,15 L 55,15" style="fill:none;stroke:#71592E;stroke-width:5" id="route5color"/>
+<path d="M 15,35 L 55,35" style="fill:none;stroke:#FFAB2E;stroke-width:5" id="route6color"/>
+<path d="M 15,55 L 55,55" style="fill:none;stroke:#B5198D;stroke-width:5" id="route7color"/>
+<path d="M 15,75 L 55,75" style="fill:none;stroke:#FFD702;stroke-width:5" id="route8color"/>
+
+<text class="legendtext">
+<tspan x="65" y="20">#5</tspan><tspan x="110" y="20">Кольцевая линия</tspan>
+<tspan x="65" y="40">#6</tspan><tspan x="110" y="40">Калужско-Рижская линия</tspan>
+<tspan x="65" y="60">#7</tspan><tspan x="110" y="60">Таганско-Краснопресненская линия</tspan>
+<tspan x="65" y="80">#8</tspan><tspan x="110" y="80">Калининская линия</tspan>
+</text>
+</g>
+
+<g id="legendg3" transform="translate(833,0)">
+<path d="M 15,15 L 55,15" style="fill:none;stroke:#A9A9A9;stroke-width:5" id="route9color"/>
+<path d="M 15,35 L 55,35" style="fill:none;stroke:#B3D52E;stroke-width:5" id="route10color"/>
+<path d="M 15,55 L 55,55" style="fill:none;stroke:#1A8BB9;stroke-width:5" id="route11color"/>
+<path d="M 15,75 L 55,75" style="fill:none;stroke:#8DD9FB;stroke-width:5" id="routeL1color"/>
+<path d="M 15,75 L 55,75" style="fill:none;stroke:#FFFFFF;stroke-width:1" id="routeL1color_inner"/>
+<path d="M 15,95 L 55,95" style="fill:none;stroke-width:2;stroke:#77aaff"
+id="monorailcolor" />
+<use xlink:href="#stmono" x="35" y="95"/>
+
+<text class="legendtext">
+<tspan x="65" y="20">#9</tspan><tspan x="110" y="20">Серпуховско-Тимирязевская линия</tspan>
+<tspan x="65" y="40">#10</tspan><tspan x="110" y="40">Люблинско-Дмитровская линия</tspan>
+<tspan x="65" y="60">#11</tspan><tspan x="110" y="60">Каховская линия</tspan>
+<tspan x="65" y="80">#Л1</tspan><tspan x="110" y="80">Бутовская линия</tspan>
+<tspan x="65" y="100">#М1</tspan><tspan x="110" y="100">Московский монорельс</tspan>
+</text>
+</g>
+
+<g id="legendbox_group" transform="translate(0,130)">
+<path stroke="#cccccc" stroke-width="3px" d="M 0,5 L 1250,5"/>
+<text class="legendtext" x="635" y="0" style="font-weight:bold; text-anchor:middle">Легенда</text>
+
+<g id="line_legendbox_group" transform="translate(100,50)">
+
+<g id="term_legendbox_group" transform="translate(60,0)">
+<path d="M 0,0 L 520,0" style="fill:none;stroke:#ff0000;stroke-width:5"/>
+<use xlink:href="#term1" transform="translate(0,0)rotate(90)"/>
+<text class="ic" x="0" y="-15" style="fill:red; text-anchor:middle">1</text>
+<text class="legendst" x="0" y="25" style="text-anchor:middle">Конечная станция</text>
+</g>
+
+<g id="st_legendbox_group" transform="translate(210,0)">
+<use xlink:href="#st1" transform="translate(0,0)rotate(90)"/>
+<text class="legendst" x="0" y="25" style="text-anchor:middle">Станция</text>
+</g>
+
+<g id="int_legendbox_group" transform="translate(360,0)">
+<path d="M -50,-20 
+l 166,0 q 14,0 24,10
+l 22,22" 
+style="fill:none;stroke:#029B52;stroke-width:5"/>
+<use xlink:href="#int2" transform="translate(0,0)rotate(-45)"/>
+<use xlink:href="#intst1" transform="translate(0,0)rotate(90)"/>
+<use xlink:href="#intst2" transform="translate(20,-20)rotate(90)"/>
+<g transform="translate(0,2)">
+<text class="ic" style="font-size:8;text-anchor:middle;fill:#FFFFFF">
+<tspan x="0" y="0">1</tspan>
+<tspan x="20" y="-20">2</tspan>
+</text>
+</g>
+<text class="legendic" x="0" y="25" style="text-anchor:middle">Пересадка</text>
+<!--
+<text class="legendst" style="text-anchor:middle">
+<tspan x="0" y="45">separate stations with</tspan>
+<tspan x="0" y="60">pedestrian connections</tspan>
+</text>
+-->
+</g>
+
+<g id="crossint_legendbox_group" transform="translate(510,0)">
+<use xlink:href="#ele-int" x="0" y="0"/>
+<use xlink:href="#intst1" transform="translate(0,0)rotate(90)"/>
+<use xlink:href="#intst-h2" transform="translate(0,0)rotate(180)"/>
+<path d="M 0,0 l 0,-5 0,10 z" style="stroke:white;stroke-width:1px;"/>
+<text class="legendic" style="text-anchor:middle">
+<tspan x="0" y="25">Кросс-платформенная</tspan>
+<tspan x="0" y="40">пересадка</tspan>
+</text>
+</g>
+
+<g id="rail_terminal_group" transform="translate(660,0)">
+<use xlink:href="#train" transform="translate(-10,0)rotate(0)"/>
+<text class="legendst" style="text-anchor:middle">
+<tspan x="0" y="25">Железнодорожный</tspan>
+<tspan x="0" y="40">вокзал</tspan>
+</text>
+<path d="M 20,0 L 180,0" style="stroke-width:5px;stroke:#dddddd"/>
+<path d="M 20,0 L 180,0" style="stroke-width:4px;stroke:#FFFFFF;stroke-dasharray:10"/>
+<use xlink:href="#stvok" transform="translate(20,0)"/>
+<use xlink:href="#stvok" transform="translate(180,0)"/>
+</g>
+
+<text class="legendst" x="775" y="25" style="text-anchor:middle">Аэроэкспресс</text>
+
+<g id="airport_legendbox_group" transform="translate(860,0)">
+<use xlink:href="#airport"/>
+<text class="legendst" x="0" y="25" style="text-anchor:middle">Аэропорт</text>
+</g>
+
+<g id="waterway_legendbox_group" transform="translate(960,0)">
+<path style="fill:none;stroke:#e2fcfc;stroke-width:15px"
+d="M -40,0 L 40,0" />
+<text class="legendst" x="0" y="25" style="text-anchor:middle">Водный путь</text>
+
+</g>
+
+<text class="st" x="1155" y="90" style="fill:black;font-size:11px;font-family:Liberation Sans,Arial,sans-serif;text-anchor:end">Image originally created and licensed under the Creative Commons Attribution-Share Alike 3.0 Unported by Wikipedian(s).</text>
+
+</g>
+</g>
+</g>
+
+</svg>

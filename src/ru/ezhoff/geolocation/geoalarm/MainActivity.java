@@ -7,6 +7,7 @@ import android.location.Location;
 import android.location.LocationListener;
 import android.location.LocationManager;
 import android.os.Bundle;
+import android.widget.ImageView;
 import android.widget.TextView;
 import ru.ezhoff.geolocation.Logger;
 
@@ -41,6 +42,9 @@ public class MainActivity extends Activity implements LocationListener {
             LOGGER.debug(String.format(POSITION_MESSAGE, location.getLatitude(), location.getLongitude()));
             locationLbl.setText(String.format(POSITION_MESSAGE, location.getLatitude(), location.getLongitude()));
         }
+
+        ImageView mapView = (ImageView) findViewById(R.id.mapView);
+        mapView.setImageDrawable();
 
     }
 

@@ -9,5 +9,9 @@
             android:layout_height="wrap_content"
             android:text="New Text"
             android:id="@+id/Location" android:layout_gravity="center"/>
+    <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="200dp"
+            android:id="@+id/mapView" android:layout_gravity="center" android:baselineAlignBottom="true"/>
 </LinearLayout>
 

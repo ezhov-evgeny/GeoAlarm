@@ -9,6 +9,7 @@ import android.location.LocationManager;
 import android.os.Bundle;
 import android.widget.TextView;
 import ru.ezhoff.geolocation.Logger;
+import ru.ezhoff.geolocation.MetroMap;
 
 public class MainActivity extends Activity implements LocationListener {
 
@@ -16,11 +17,13 @@ public class MainActivity extends Activity implements LocationListener {
     private TextView locationLbl;
     private LocationManager locationManager;
     private String provider;
+    private MetroMap metroMap;
 
     private static final String PROVIDER_MESSAGE = "Current provider - %s.";
     private static final String PROVIDER_ENABLED_MESSAGE = "The provider - %s is enabled.";
     private static final String PROVIDER_DISABLED_MESSAGE = "The provider - %s is disabled.";
     private static final String POSITION_MESSAGE = "Current position: Latitude - %s, Longitude - %s.";
+    private static final String NEAREST_STATION_MESSAGE = "Nearest station is %s.";
 
     /**
      * Called when the activity is first created.
@@ -35,11 +38,16 @@ public class MainActivity extends Activity implements LocationListener {
         Criteria criteria = new Criteria();
         provider = locationManager.getBestProvider(criteria, true);
         LOGGER.debug(String.format(PROVIDER_MESSAGE, provider));
+        metroMap = MetroMap.createMetroMap(provider);
         Location location = locationManager.getLastKnownLocation(provider);
 
         if (location != null) {
             LOGGER.debug(String.format(POSITION_MESSAGE, location.getLatitude(), location.getLongitude()));
-            locationLbl.setText(String.format(POSITION_MESSAGE, location.getLatitude(), location.getLongitude()));
+            locationLbl.setText(
+                    String.format(POSITION_MESSAGE, location.getLatitude(), location.getLongitude()) + "\n" +
+                    String.format(PROVIDER_MESSAGE, provider) + "\n" +
+                    String.format(NEAREST_STATION_MESSAGE, metroMap.getNearestStation(location))
+            );
         }
 
     }
@@ -61,7 +69,8 @@ public class MainActivity extends Activity implements LocationListener {
         LOGGER.debug(String.format(POSITION_MESSAGE, location.getLatitude(), location.getLongitude()));
         locationLbl.setText(
                 String.format(POSITION_MESSAGE, location.getLatitude(), location.getLongitude()) + "\n" +
-                        String.format(PROVIDER_MESSAGE, provider)
+                String.format(PROVIDER_MESSAGE, provider) + "\n" +
+                String.format(NEAREST_STATION_MESSAGE, metroMap.getNearestStation(location))
         );
     }
 

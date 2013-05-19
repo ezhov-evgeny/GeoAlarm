@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<routes>
+    <route officialName="Серпуховско-Тимирязевская линия" unofficialName="Серая ветка" color="#aaaaaa">
+        <stations>
+            <station id="gr01">
+                <name>Алтуфьево</name>
+                <coordinates latitude="55.89504" longitude="37.58605" altitude=""/>
+            </station>
+            <station id="gr02">
+                <name>Бибирево</name>
+                <coordinates latitude="55.88294" longitude="37.60523" altitude=""/>
+            </station>
+            <station id="gr03">
+                <name>Отрадное</name>
+                <coordinates latitude="55.86417" longitude="37.60488" altitude=""/>
+            </station>
+            <station id="gr04">
+                <name>Владыкино</name>
+                <coordinates latitude="55.84669" longitude="37.59251" altitude=""/>
+            </station>
+            <station id="gr05">
+                <name>Петровско-Разумовская</name>
+                <coordinates latitude="55.83712" longitude="37.57349" altitude=""/>
+            </station>
+            <station id="gr06">
+                <name>Тимирязевская</name>
+                <coordinates latitude="55.81842" longitude="37.57571" altitude=""/>
+            </station>
+            <station id="gr07">
+                <name>Дмитровская</name>
+                <coordinates latitude="55.80756" longitude="37.57959" altitude=""/>
+            </station>
+            <station id="gr08">
+                <name>Cавеловская</name>
+                <coordinates latitude="55.79421" longitude="37.58666" altitude=""/>
+            </station>
+            <station id="gr09">
+                <name>Менделеевская</name>
+                <coordinates latitude="55.78251" longitude="37.59792" altitude=""/>
+                <joins>
+                    <join ref="br01"/>
+                </joins>
+            </station>
+            <station id="gr10">
+                <name>Цветной бульвар</name>
+                <coordinates latitude="55.7716" longitude="37.62058" altitude=""/>
+            </station>
+        </stations>
+    </route>
+    <route officialName="Кольцевая линия" unofficialName="Коричневая ветка" color="#802a2a">
+        <stations>
+            <station id="br01">
+                <name>Новослободская</name>
+                <coordinates latitude="55.77921" longitude="37.6009" altitude=""/>
+                <joins>
+                    <join ref="gr09"/>
+                </joins>
+            </station>
+            <station id="br02">
+                <name>Проспект мира</name>
+                <coordinates latitude="55.781196" longitude="37.633529" altitude=""/>
+            </station>
+            <station id="br12">
+                <name>Белорусская</name>
+                <coordinates latitude="55.77492" longitude="37.58207" altitude=""/>
+            </station>
+        </stations>
+    </route>
+</routes>

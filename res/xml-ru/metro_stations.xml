@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <routes>
-    <route>
-        <name>Серпуховско-Тимирязевская линия</name>
-        <color code="#aaaaaa">Серая ветка</color>
+    <route officialName="Серпуховско-Тимирязевская линия" unofficialName="Серая ветка" color="#aaaaaa">
         <stations>
             <station id="gr01">
                 <name>Алтуфьево</name>
@@ -49,9 +47,7 @@
             </station>
         </stations>
     </route>
-    <route>
-        <name>Кольцевая линия</name>
-        <color code="#802a2a">Коричневая ветка</color>
+    <route officialName="Кольцевая линия" unofficialName="Коричневая ветка" color="#802a2a">
         <stations>
             <station id="br01">
                 <name>Новослободская</name>

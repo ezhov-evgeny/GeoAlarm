@@ -7,9 +7,12 @@ import android.location.Location;
 import android.location.LocationListener;
 import android.location.LocationManager;
 import android.os.Bundle;
-import android.widget.ImageView;
 import android.widget.TextView;
+import org.xml.sax.SAXException;
 import ru.ezhoff.geolocation.Logger;
+
+import javax.xml.parsers.ParserConfigurationException;
+import java.io.IOException;
 
 public class MainActivity extends Activity implements LocationListener {
 
@@ -43,9 +46,16 @@ public class MainActivity extends Activity implements LocationListener {
             locationLbl.setText(String.format(POSITION_MESSAGE, location.getLatitude(), location.getLongitude()));
         }
 
-        ImageView mapView = (ImageView) findViewById(R.id.mapView);
-        mapView.setImageDrawable();
-
+        RoutesParser parser = new RoutesParser();
+        try {
+            parser.parse("res/xml-ru/metro_stations.xml");
+        } catch (IOException e) {
+            e.printStackTrace();
+        } catch (SAXException e) {
+            e.printStackTrace();
+        } catch (ParserConfigurationException e) {
+            e.printStackTrace();
+        }
     }
 
     @Override

@@ -4,6 +4,8 @@ import org.junit.Before;
 import org.junit.Test;
 import ru.ezhoff.geolocation.model.Route;
 
+import java.io.File;
+import java.io.FileInputStream;
 import java.util.List;
 
 import static junit.framework.Assert.assertEquals;
@@ -21,8 +23,10 @@ public class RoutesParserTest {
 
     @Before
     public void setUp() throws Exception {
-        RoutesParser parser = new RoutesParser();
-        routes = parser.parse(STATIONS_XML_FILE);
+        //RoutesParser parser = new RoutesParser();
+        //routes = parser.parse(STATIONS_XML_FILE);
+        RoutesParserV2 parser = new RoutesParserV2();
+        routes = parser.parse(new FileInputStream(new File(STATIONS_XML_FILE)));
     }
 
     @Test

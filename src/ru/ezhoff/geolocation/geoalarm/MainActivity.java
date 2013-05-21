@@ -48,6 +48,7 @@ public class MainActivity extends Activity implements LocationListener {
 
         RoutesParser parser = new RoutesParser();
         try {
+            // @TODO Fix path
             parser.parse("res/xml-ru/metro_stations.xml");
         } catch (IOException e) {
             e.printStackTrace();

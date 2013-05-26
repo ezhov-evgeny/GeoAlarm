@@ -1,24 +1,26 @@
 package ru.ezhoff.geolocation.geoalarm;
 
 import android.app.Activity;
+import android.app.AlertDialog;
 import android.content.Context;
 import android.location.Criteria;
 import android.location.Location;
 import android.location.LocationListener;
 import android.location.LocationManager;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.AdapterView;
+import android.widget.Spinner;
 import android.widget.TextView;
 import org.xmlpull.v1.XmlPullParser;
-import org.xmlpull.v1.XmlPullParserException;
 import ru.ezhoff.geolocation.Logger;
 import ru.ezhoff.geolocation.model.Station;
-
-import java.io.IOException;
 
 public class MainActivity extends Activity implements LocationListener {
 
     private static final Logger LOGGER = new Logger(MainActivity.class.getName());
     private TextView locationLbl;
+    private Spinner fromSpinner, toSpiner;
     private LocationManager locationManager;
     private String provider;
 
@@ -35,17 +37,39 @@ public class MainActivity extends Activity implements LocationListener {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
-        locationLbl = (TextView) findViewById(R.id.Location);
+        locationLbl = (TextView) findViewById(R.id.locationLbl);
+        fromSpinner = (Spinner) findViewById(R.id.fromSpinner);
+        toSpiner    = (Spinner) findViewById(R.id.toSpinner);
 
         RoutesParser parser = new RoutesParser();
         XmlPullParser xml = getResources().getXml(R.xml.metro_stations);
         try {
             StationMap.getInstance().setRoutes(parser.parse(xml));
-        } catch (IOException e) {
-            e.printStackTrace();
-        } catch (XmlPullParserException e) {
-            e.printStackTrace();
+        } catch (Exception e) {
+            LOGGER.error(e.getMessage(), e);
+            new AlertDialog.Builder(getApplicationContext()).setMessage(e.getMessage()).show();
+            return;
         }
+
+        StationArrayAdapter stationAdapter = new StationArrayAdapter(
+                getApplicationContext(),
+                android.R.layout.simple_dropdown_item_1line,
+                StationMap.getInstance().getStationList()
+        );
+
+        fromSpinner.setAdapter(stationAdapter);
+        toSpiner.setAdapter(stationAdapter);
+        toSpiner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
+                Station station = (Station) adapterView.getItemAtPosition(i);
+                ((TextView) findViewById(R.id.textView)).setText("Selected: " + station.getName());
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> adapterView) {
+            }
+        });
 
         locationManager = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
         Criteria criteria = new Criteria();

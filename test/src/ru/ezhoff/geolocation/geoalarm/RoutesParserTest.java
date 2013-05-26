@@ -23,9 +23,7 @@ public class RoutesParserTest {
 
     @Before
     public void setUp() throws Exception {
-        //RoutesParser parser = new RoutesParser();
-        //routes = parser.parse(STATIONS_XML_FILE);
-        RoutesParserV2 parser = new RoutesParserV2();
+        RoutesParser parser = new RoutesParser();
         routes = parser.parse(new FileInputStream(new File(STATIONS_XML_FILE)));
     }
 

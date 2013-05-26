@@ -8,10 +8,11 @@ import android.location.LocationListener;
 import android.location.LocationManager;
 import android.os.Bundle;
 import android.widget.TextView;
-import org.xml.sax.SAXException;
+import org.xmlpull.v1.XmlPullParser;
+import org.xmlpull.v1.XmlPullParserException;
 import ru.ezhoff.geolocation.Logger;
+import ru.ezhoff.geolocation.model.Station;
 
-import javax.xml.parsers.ParserConfigurationException;
 import java.io.IOException;
 
 public class MainActivity extends Activity implements LocationListener {
@@ -25,6 +26,7 @@ public class MainActivity extends Activity implements LocationListener {
     private static final String PROVIDER_ENABLED_MESSAGE = "The provider - %s is enabled.";
     private static final String PROVIDER_DISABLED_MESSAGE = "The provider - %s is disabled.";
     private static final String POSITION_MESSAGE = "Current position: Latitude - %s, Longitude - %s.";
+    private static final String STATION_MESSAGE = "The nearest station - %s: Latitude - %s, Longitude - %s.";
 
     /**
      * Called when the activity is first created.
@@ -35,6 +37,16 @@ public class MainActivity extends Activity implements LocationListener {
         setContentView(R.layout.main);
         locationLbl = (TextView) findViewById(R.id.Location);
 
+        RoutesParser parser = new RoutesParser();
+        XmlPullParser xml = getResources().getXml(R.xml.metro_stations);
+        try {
+            StationMap.getInstance().setRoutes(parser.parse(xml));
+        } catch (IOException e) {
+            e.printStackTrace();
+        } catch (XmlPullParserException e) {
+            e.printStackTrace();
+        }
+
         locationManager = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
         Criteria criteria = new Criteria();
         provider = locationManager.getBestProvider(criteria, true);
@@ -42,21 +54,9 @@ public class MainActivity extends Activity implements LocationListener {
         Location location = locationManager.getLastKnownLocation(provider);
 
         if (location != null) {
-            LOGGER.debug(String.format(POSITION_MESSAGE, location.getLatitude(), location.getLongitude()));
-            locationLbl.setText(String.format(POSITION_MESSAGE, location.getLatitude(), location.getLongitude()));
+            processLocation(location);
         }
-
-        RoutesParser parser = new RoutesParser();
-        try {
-            // @TODO Fix path
-            parser.parse("res/xml-ru/metro_stations.xml");
-        } catch (IOException e) {
-            e.printStackTrace();
-        } catch (SAXException e) {
-            e.printStackTrace();
-        } catch (ParserConfigurationException e) {
-            e.printStackTrace();
-        }
+        locationLbl.setText("Loaded");
     }
 
     @Override
@@ -73,11 +73,7 @@ public class MainActivity extends Activity implements LocationListener {
 
     @Override
     public void onLocationChanged(Location location) {
-        LOGGER.debug(String.format(POSITION_MESSAGE, location.getLatitude(), location.getLongitude()));
-        locationLbl.setText(
-                String.format(POSITION_MESSAGE, location.getLatitude(), location.getLongitude()) + "\n" +
-                        String.format(PROVIDER_MESSAGE, provider)
-        );
+        processLocation(location);
     }
 
     @Override
@@ -94,5 +90,16 @@ public class MainActivity extends Activity implements LocationListener {
     @Override
     public void onProviderDisabled(String s) {
         LOGGER.debug(String.format(PROVIDER_DISABLED_MESSAGE, s));
+    }
+
+    private void processLocation(Location location) {
+        LOGGER.debug(String.format(POSITION_MESSAGE, location.getLatitude(), location.getLongitude()));
+        Station station = StationMap.getInstance().getNearestStation(location);
+        locationLbl.setText(
+                String.format(POSITION_MESSAGE, location.getLatitude(), location.getLongitude()) + "\n" +
+                        String.format(PROVIDER_MESSAGE, provider) + "\n" +
+                        String.format(STATION_MESSAGE, station.getName(), station.getLocation().getLatitude(),
+                                station.getLocation().getLongitude())
+        );
     }
 }

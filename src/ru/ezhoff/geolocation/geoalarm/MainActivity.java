@@ -23,6 +23,7 @@ public class MainActivity extends Activity implements LocationListener {
     private Spinner fromSpinner, toSpiner;
     private LocationManager locationManager;
     private String provider;
+    private Station destinationStation;
 
     private static final String PROVIDER_MESSAGE = "Current provider - %s.";
     private static final String PROVIDER_ENABLED_MESSAGE = "The provider - %s is enabled.";
@@ -62,8 +63,8 @@ public class MainActivity extends Activity implements LocationListener {
         toSpiner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
-                Station station = (Station) adapterView.getItemAtPosition(i);
-                ((TextView) findViewById(R.id.textView)).setText("Selected: " + station.getName());
+                destinationStation = (Station) adapterView.getItemAtPosition(i);
+                ((TextView) findViewById(R.id.textView)).setText("Selected: " + destinationStation.getName());
             }
 
             @Override
